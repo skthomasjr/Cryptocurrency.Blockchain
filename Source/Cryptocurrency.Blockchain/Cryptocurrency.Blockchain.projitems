@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>042c4fc7-338e-4ca4-891a-a67957db5b67</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Cryptocurrency.Blockchain</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ApiSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)InputTransaction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OutputTransaction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Properties\AssemblyInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RawBlock.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\ContractResolver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\SerializerSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Transaction.cs" />
+  </ItemGroup>
+</Project>
