@@ -1,7 +1,7 @@
 @echo off
 echo Creating NuGet package
 set Name=Cryptocurrency.Blockchain
-set Version=1.0.0
+set Version=%APPVEYOR_BUILD_VERSION%
 
 echo.
 echo Cleaning convention based working directory...
