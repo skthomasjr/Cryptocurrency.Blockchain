@@ -5,7 +5,7 @@
     <version>0.0.0</version>
     <authors>Scott Keith Thomas, Jr.</authors>
     <description>Cryptocurrency.Blockchain is a library for interacting with the Blockchain.info API.</description>
-    <tags>Cryptocurrency.Blockchain</tags>
+    <tags>api blockchain cryptocurrency money</tags>
     <iconUrl>https://raw.githubusercontent.com/skthomasjr/Cryptocurrency.Blockchain/master/Build/NuGet/Package.png</iconUrl>
     <licenseUrl>https://raw.githubusercontent.com/skthomasjr/Cryptocurrency.Blockchain/master/LICENSE.md</licenseUrl>
     <projectUrl>https://github.com/skthomasjr/Cryptocurrency.Blockchain</projectUrl>
