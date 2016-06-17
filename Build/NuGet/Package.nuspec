@@ -10,5 +10,9 @@
     <licenseUrl>https://raw.githubusercontent.com/skthomasjr/Cryptocurrency.Blockchain/master/LICENSE.md</licenseUrl>
     <projectUrl>https://github.com/skthomasjr/Cryptocurrency.Blockchain</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id="Cryptocurrency" version="1.0.0" />
+      <dependency id="Json.NET" version="1.0.0" />
+    </dependencies>
   </metadata>
 </package>
