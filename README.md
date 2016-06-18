@@ -1,4 +1,6 @@
 # Cryptocurrency.Blockchain
+
+[![Join the chat at https://gitter.im/skthomasjr/Cryptocurrency.Blockchain](https://badges.gitter.im/skthomasjr/Cryptocurrency.Blockchain.svg)](https://gitter.im/skthomasjr/Cryptocurrency.Blockchain?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build](https://ci.appveyor.com/api/projects/status/y1rox466gbqe3j98?svg=true)](https://ci.appveyor.com/project/skthomasjr/cryptocurrency-blockchain)
 [![Release](https://img.shields.io/github/release/skthomasjr/Cryptocurrency.Blockchain.svg?maxAge=2592000)](https://github.com/skthomasjr/Cryptocurrency.Blockchain/releases)
 [![NuGet](https://img.shields.io/nuget/v/Cryptocurrency.Blockchain.svg)](https://www.nuget.org/packages/Cryptocurrency.Blockchain)
