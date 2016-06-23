@@ -39,8 +39,8 @@
       <HintPath>..\packages\NetClient.1.0.20\lib\net461\NetClient.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="NetClient.Rest, Version=1.0.50.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\NetClient.Rest.1.0.50\lib\net461\NetClient.Rest.dll</HintPath>
+    <Reference Include="NetClient.Rest, Version=1.0.55.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\NetClient.Rest.1.0.55\lib\net461\NetClient.Rest.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -74,16 +74,13 @@
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="rawblock.417260.json" />
+    <None Include="SampleData\rawblock.417260.json" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Cryptocurrency.Blockchain.Net461\Cryptocurrency.Blockchain.Net461.csproj">
       <Project>{a2d043b6-0728-447d-87ab-5c3fd3262d9a}</Project>
       <Name>Cryptocurrency.Blockchain.Net461</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Todo.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />

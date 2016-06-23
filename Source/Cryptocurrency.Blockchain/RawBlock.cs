@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Net;
 using Cryptocurrency.Blockchain.Serialization.Converters;
 using Newtonsoft.Json;
 using Types.Hexadecimal;
@@ -79,7 +80,8 @@ namespace Cryptocurrency.Blockchain
         ///     Gets the IP address that relayed the block.
         /// </summary>
         [JsonProperty("relayed_by")]
-        public string RelayedBy { get; private set; }
+        [JsonConverter(typeof(IpAddressConverter))]
+        public IPAddress RelayedBy { get; private set; }
 
         /// <summary>
         ///     Gets the serialized size.

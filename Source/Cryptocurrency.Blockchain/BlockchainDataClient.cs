@@ -12,8 +12,7 @@ namespace Cryptocurrency.Blockchain
         ///     Gets the resource representing raw blockchain blocks.
         /// </summary>
         /// <value>The raw blocks.</value>
-        //[Route("/rawblock/{Hash}")]
-        [Route("/rawblock/{BlockIndex}")]
+        [Route("/rawblock/{BlockIndex}", "/rawblock/{Hash}")]
         public Resource<RawBlock> RawBlocks { get; private set; }
     }
 }

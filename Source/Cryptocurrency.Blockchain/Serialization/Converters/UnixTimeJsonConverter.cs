@@ -1,5 +1,5 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
+using Newtonsoft.Json;
 
 namespace Cryptocurrency.Blockchain.Serialization.Converters
 {
@@ -12,12 +12,12 @@ namespace Cryptocurrency.Blockchain.Serialization.Converters
 
         public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
         {
-            return DateTimeOffset.FromUnixTimeSeconds((long)reader.Value).UtcDateTime;
+            return DateTimeOffset.FromUnixTimeSeconds((long) reader.Value).UtcDateTime;
         }
 
         public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
         {
-            serializer.Serialize(writer, new DateTimeOffset((DateTime)value).ToUnixTimeSeconds());
+            serializer.Serialize(writer, new DateTimeOffset((DateTime) value).ToUnixTimeSeconds());
         }
     }
 }
