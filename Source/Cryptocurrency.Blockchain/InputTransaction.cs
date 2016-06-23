@@ -1,26 +1,38 @@
-﻿namespace Cryptocurrency.Blockchain
+﻿using Cryptocurrency.Blockchain.Serialization.Converters;
+using Newtonsoft.Json;
+using Types.Hexadecimal;
+
+namespace Cryptocurrency.Blockchain
 {
     /// <summary>
-    ///     Class InputTransaction.
+    ///     Represents an input transaction.
     /// </summary>
     public class InputTransaction
     {
         /// <summary>
-        ///     Gets or sets the previous output.
+        /// Prevents a default instance of the <see cref="InputTransaction"/> class from being created.
         /// </summary>
-        /// <value>The previous output.</value>
-        public OutputTransaction PreviousOutput { get; set; }
+        private InputTransaction()
+        {
+        }
 
         /// <summary>
-        ///     Gets or sets the script.
+        ///     Gets the previous output. Null for coinbase input.
         /// </summary>
-        /// <value>The script.</value>
-        public string Script { get; set; }
+        [JsonProperty("prev_out")]
+        public OutputTransaction PreviousOutput { get; private set; }
 
         /// <summary>
-        ///     Gets or sets the sequence.
+        ///     Gets the script signature.
         /// </summary>
-        /// <value>The sequence.</value>
-        public long Sequence { get; set; }
+        [JsonProperty("script", Required = Required.Always)]
+        [JsonConverter(typeof(HexJsonConverter))]
+        public Hex Script { get; private set; }
+
+        /// <summary>
+        ///     Gets the sequence.
+        /// </summary>
+        [JsonProperty("sequence", Required = Required.Always)]
+        public long Sequence { get; private set; }
     }
 }

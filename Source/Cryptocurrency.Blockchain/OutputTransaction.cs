@@ -1,4 +1,8 @@
-﻿namespace Cryptocurrency.Blockchain
+﻿using Cryptocurrency.Blockchain.Serialization.Converters;
+using Newtonsoft.Json;
+using Types.Hexadecimal;
+
+namespace Cryptocurrency.Blockchain
 {
     /// <summary>
     ///     Class OutputTransaction.
@@ -6,45 +10,47 @@
     public class OutputTransaction
     {
         /// <summary>
-        ///     Gets or sets the address.
+        ///     Prevents a default instance of the <see cref="OutputTransaction" /> class from being created.
         /// </summary>
-        /// <value>The address.</value>
-        public string Address { get; set; }
+        private OutputTransaction()
+        {
+        }
 
         /// <summary>
-        ///     Gets or sets the index.
+        ///     Gets the wallet address.
         /// </summary>
-        /// <value>The index.</value>
-        public int Index { get; set; }
+        [JsonProperty("addr")]
+        public string Address { get; private set; }
 
         /// <summary>
-        ///     Gets or sets the script.
+        ///     Gets the output index in the transaction.
         /// </summary>
-        /// <value>The script.</value>
-        public string Script { get; set; }
+        [JsonProperty("n", Required = Required.Always)]
+        public int Index { get; private set; }
 
         /// <summary>
-        ///     Gets or sets a value indicating whether this <see cref="OutputTransaction" /> is spent.
+        ///     Gets a value indicating whether output is spent.
         /// </summary>
-        /// <value><c>true</c> if spent; otherwise, <c>false</c>.</value>
-        public bool Spent { get; set; }
+        [JsonProperty("spent", Required = Required.Always)]
+        public bool IsSpent { get; private set; }
 
         /// <summary>
-        ///     Gets or sets the index of the transaction.
+        ///     Gets the script signature.
         /// </summary>
-        /// <value>The index of the transaction.</value>
-        public long TransactionIndex { get; set; }
+        [JsonProperty("script", Required = Required.Always)]
+        [JsonConverter(typeof(HexJsonConverter))]
+        public Hex Script { get; private set; }
 
         /// <summary>
-        ///     Gets or sets the type.
+        ///     Gets the index of the transaction.
         /// </summary>
-        /// <value>The type.</value>
-        public int Type { get; set; }
+        [JsonProperty("tx_index", Required = Required.Always)]
+        public long TransactionIndex { get; private set; }
 
         /// <summary>
-        ///     Gets or sets the value.
+        ///     Gets the value.
         /// </summary>
-        /// <value>The value.</value>
-        public long Value { get; set; }
+        [JsonProperty("value", Required = Required.Always)]
+        public decimal Value { get; private set; }
     }
 }

@@ -7,18 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptocurrency.Blockchain.N
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Cryptocurrency.Blockchain", "Cryptocurrency.Blockchain\Cryptocurrency.Blockchain.shproj", "{042C4FC7-338E-4CA4-891A-A67957DB5B67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptocurrency.Blockchain.Net45", "Cryptocurrency.Blockchain.Net45\Cryptocurrency.Blockchain.Net45.csproj", "{073BAE33-9E13-45C6-876F-45C116655008}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptocurrency.Blockchain.Net40", "Cryptocurrency.Blockchain.Net40\Cryptocurrency.Blockchain.Net40.csproj", "{C8CC0877-D535-42CF-81C0-60DEEE3C5BDA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptocurrency.Blockchain.SampleConsole", "Cryptocurrency.Blockchain.SampleConsole\Cryptocurrency.Blockchain.SampleConsole.csproj", "{369AEAA7-3299-4937-99D1-44208E9C48A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptocurrency.Blockchain.Net46", "Cryptocurrency.Blockchain.Net46\Cryptocurrency.Blockchain.Net46.csproj", "{B4624DFF-6C98-4DA0-A867-00727355F27F}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Cryptocurrency.Blockchain\Cryptocurrency.Blockchain.projitems*{042c4fc7-338e-4ca4-891a-a67957db5b67}*SharedItemsImports = 13
-		Cryptocurrency.Blockchain\Cryptocurrency.Blockchain.projitems*{073bae33-9e13-45c6-876f-45c116655008}*SharedItemsImports = 4
 		Cryptocurrency.Blockchain\Cryptocurrency.Blockchain.projitems*{a2d043b6-0728-447d-87ab-5c3fd3262d9a}*SharedItemsImports = 4
-		Cryptocurrency.Blockchain\Cryptocurrency.Blockchain.projitems*{c8cc0877-d535-42cf-81c0-60deee3c5bda}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,18 +25,14 @@ Global
 		{A2D043B6-0728-447D-87AB-5C3FD3262D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2D043B6-0728-447D-87AB-5C3FD3262D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2D043B6-0728-447D-87AB-5C3FD3262D9A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{073BAE33-9E13-45C6-876F-45C116655008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{073BAE33-9E13-45C6-876F-45C116655008}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{073BAE33-9E13-45C6-876F-45C116655008}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{073BAE33-9E13-45C6-876F-45C116655008}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C8CC0877-D535-42CF-81C0-60DEEE3C5BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C8CC0877-D535-42CF-81C0-60DEEE3C5BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C8CC0877-D535-42CF-81C0-60DEEE3C5BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C8CC0877-D535-42CF-81C0-60DEEE3C5BDA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{369AEAA7-3299-4937-99D1-44208E9C48A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{369AEAA7-3299-4937-99D1-44208E9C48A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{369AEAA7-3299-4937-99D1-44208E9C48A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{369AEAA7-3299-4937-99D1-44208E9C48A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4624DFF-6C98-4DA0-A867-00727355F27F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4624DFF-6C98-4DA0-A867-00727355F27F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4624DFF-6C98-4DA0-A867-00727355F27F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4624DFF-6C98-4DA0-A867-00727355F27F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

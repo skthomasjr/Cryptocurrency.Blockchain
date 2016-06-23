@@ -1,0 +1,8 @@
+﻿Type for bitcoin value (see API)
+Type for bitcoin address (see API)
+Find usage of UnspentOutput
+Use IPAddress type
+Support multiple routes
+Look at DeserializeMultiple
+Look at other types
+UnitTime in 45

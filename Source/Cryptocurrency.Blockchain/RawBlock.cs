@@ -1,102 +1,109 @@
 ﻿using System;
 using System.Collections.Generic;
+using Cryptocurrency.Blockchain.Serialization.Converters;
+using Newtonsoft.Json;
 using Types.Hexadecimal;
 
 namespace Cryptocurrency.Blockchain
 {
     /// <summary>
-    ///     Class RawBlock.
+    ///     Represents a raw blockchain block.
     /// </summary>
     public class RawBlock
     {
         /// <summary>
-        ///     Gets or sets the bits.
+        ///     Prevents a default instance of the <see cref="RawBlock" /> class from being created.
         /// </summary>
-        /// <value>The bits.</value>
-        public int Bits { get; set; }
+        private RawBlock()
+        {
+        }
 
         /// <summary>
-        ///     Gets or sets the index of the block.
+        ///     Gets the difficulty target.
         /// </summary>
-        /// <value>The index of the block.</value>
-        public long BlockIndex { get; set; }
+        [JsonProperty("bits", Required = Required.Always)]
+        public long Bits { get; private set; }
 
         /// <summary>
-        ///     Gets or sets the fee.
+        ///     Gets the block index.
         /// </summary>
-        /// <value>The fee.</value>
-        public long Fee { get; set; }
+        [JsonProperty("block_index", Required = Required.Always)]
+        public long BlockIndex { get; private set; }
 
         /// <summary>
-        ///     Gets or sets the hash.
+        ///     Gets the total transaction fee.
         /// </summary>
-        /// <value>The hash.</value>
-        public Hex Hash { get; set; }
+        [JsonProperty("fee", Required = Required.Always)]
+        public decimal Fee { get; private set; }
 
         /// <summary>
-        ///     Gets or sets the height.
+        ///     Gets the block hash.
         /// </summary>
-        /// <value>The height.</value>
-        public int Height { get; set; }
+        [JsonProperty("hash", Required = Required.Always)]
+        [JsonConverter(typeof(HexJsonConverter))]
+        public Hex Hash { get; private set; }
 
         /// <summary>
-        ///     Gets or sets a value indicating whether this instance is main chain.
+        ///     Gets the block height.
         /// </summary>
-        /// <value><c>true</c> if this instance is main chain; otherwise, <c>false</c>.</value>
-        public bool IsMainChain { get; set; }
+        [JsonProperty("height", Required = Required.Always)]
+        public long Height { get; private set; }
 
         /// <summary>
-        ///     Gets or sets the merkle root.
+        ///     Gets a value indicating whether this block is on the main chain.
         /// </summary>
-        /// <value>The merkle root.</value>
-        public Hex MerkleRoot { get; set; }
+        [JsonProperty("main_chain")]
+        public bool IsMainChain { get; private set; }
 
         /// <summary>
-        ///     Gets or sets the nonce.
+        ///     Gets the merkle root.
         /// </summary>
-        /// <value>The nonce.</value>
-        public long Nonce { get; set; }
+        [JsonProperty("mrkl_root", Required = Required.Always)]
+        [JsonConverter(typeof(HexJsonConverter))]
+        public Hex MerkleRoot { get; private set; }
 
         /// <summary>
-        ///     Gets or sets the previous block.
+        ///     Gets the nonce.
         /// </summary>
-        /// <value>The previous block.</value>
-        public Hex PreviousBlock { get; set; }
+        [JsonProperty("nonce", Required = Required.Always)]
+        public long Nonce { get; private set; }
 
         /// <summary>
-        ///     Gets or sets the relayed by.
+        ///     Gets the previous block.
         /// </summary>
-        /// <value>The relayed by.</value>
-        public string RelayedBy { get; set; }
+        [JsonProperty("prev_block", Required = Required.Always)]
+        [JsonConverter(typeof(HexJsonConverter))]
+        public Hex PreviousBlock { get; private set; }
 
         /// <summary>
-        ///     Gets or sets the size.
+        ///     Gets the IP address that relayed the block.
         /// </summary>
-        /// <value>The size.</value>
-        public int Size { get; set; }
+        [JsonProperty("relayed_by")]
+        public string RelayedBy { get; private set; }
 
         /// <summary>
-        ///     Gets or sets the time.
+        ///     Gets the serialized size.
         /// </summary>
-        /// <value>The time.</value>
-        public DateTime Time { get; set; }
+        [JsonProperty("size", Required = Required.Always)]
+        public long Size { get; private set; }
 
         /// <summary>
-        ///     Gets or sets the transaction count.
+        ///     Gets the block time set by the miner.
         /// </summary>
-        /// <value>The transaction count.</value>
-        public int TransactionCount { get; set; }
+        [JsonProperty("time", Required = Required.Always)]
+        [JsonConverter(typeof(UnixTimeJsonConverter))]
+        public DateTime Time { get; private set; }
 
         /// <summary>
-        ///     Gets or sets the transactions.
+        ///     Gets the transactions.
         /// </summary>
-        /// <value>The transactions.</value>
-        public IEnumerable<Transaction> Transactions { get; set; }
+        [JsonProperty("tx", Required = Required.Always)]
+        public IEnumerable<Transaction> Transactions { get; private set; }
 
         /// <summary>
-        ///     Gets or sets the version.
+        ///     Gets the version as specified by the protocol.
         /// </summary>
-        /// <value>The version.</value>
-        public int Version { get; set; }
+        [JsonProperty("ver", Required = Required.Always)]
+        public int Version { get; private set; }
     }
 }

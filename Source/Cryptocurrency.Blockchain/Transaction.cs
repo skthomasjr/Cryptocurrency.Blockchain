@@ -1,72 +1,83 @@
 ﻿using System;
 using System.Collections.Generic;
+using Cryptocurrency.Blockchain.Serialization.Converters;
+using Newtonsoft.Json;
 using Types.Hexadecimal;
 
 namespace Cryptocurrency.Blockchain
 {
     /// <summary>
-    ///     Class Transaction.
+    ///     Represents a blockchain transaction.
     /// </summary>
     public class Transaction
     {
         /// <summary>
-        ///     Gets or sets the hash.
+        ///     Prevents a default instance of the <see cref="Transaction" /> class from being created.
         /// </summary>
-        /// <value>The hash.</value>
-        public Hex Hash { get; set; }
+        private Transaction()
+        {
+        }
 
         /// <summary>
-        ///     Gets or sets the inputs.
+        ///     Gets the block height. Null for unconfirmed transactions.
         /// </summary>
-        /// <value>The inputs.</value>
-        public IEnumerable<InputTransaction> Inputs { get; set; }
+        [JsonProperty("block_height")]
+        public long? BlockHeight { get; private set; }
 
         /// <summary>
-        ///     Gets or sets the lock time.
+        ///     Gets the block hash.
         /// </summary>
-        /// <value>The lock time.</value>
-        public DateTime? LockTime { get; set; }
+        [JsonProperty("hash", Required = Required.Always)]
+        [JsonConverter(typeof(HexJsonConverter))]
+        public Hex Hash { get; private set; }
 
         /// <summary>
-        ///     Gets or sets the outputs.
+        ///     Gets the transaction index.
         /// </summary>
-        /// <value>The outputs.</value>
-        public IEnumerable<OutputTransaction> Outputs { get; set; }
+        [JsonProperty("tx_index", Required = Required.Always)]
+        public long Index { get; private set; }
 
         /// <summary>
-        ///     Gets or sets the relayed by.
+        ///     Gets the inputs.
         /// </summary>
-        /// <value>The relayed by.</value>
-        public string RelayedBy { get; set; }
+        [JsonProperty("inputs", Required = Required.Always)]
+        public IEnumerable<InputTransaction> Inputs { get; private set; }
 
         /// <summary>
-        ///     Gets or sets the size.
+        ///     Gets a value indicating whether this block has been double spent.
         /// </summary>
-        /// <value>The size.</value>
-        public int Size { get; set; }
+        [JsonProperty("double_spend")]
+        public bool IsDoubleSpent { get; private set; }
 
         /// <summary>
-        ///     Gets or sets the index of the transaction.
+        ///     Gets the outputs.
         /// </summary>
-        /// <value>The index of the transaction.</value>
-        public long TransactionIndex { get; set; }
+        [JsonProperty("out", Required = Required.Always)]
+        public IEnumerable<OutputTransaction> Outputs { get; private set; }
 
         /// <summary>
-        ///     Gets or sets the size of the vector input.
+        ///     Gets the IP address that relayed the block.
         /// </summary>
-        /// <value>The size of the vector input.</value>
-        public int VectorInputSize { get; set; }
+        [JsonProperty("relayed_by", Required = Required.Always)]
+        public string RelayedBy { get; private set; }
 
         /// <summary>
-        ///     Gets or sets the size of the vector output.
+        ///     Gets the serialized size.
         /// </summary>
-        /// <value>The size of the vector output.</value>
-        public int VectorOutputSize { get; set; }
+        [JsonProperty("size", Required = Required.Always)]
+        public long Size { get; private set; }
 
         /// <summary>
-        ///     Gets or sets the version.
+        ///     Gets the transaction time.
         /// </summary>
-        /// <value>The version.</value>
-        public int Version { get; set; }
+        [JsonProperty("time", Required = Required.Always)]
+        [JsonConverter(typeof(UnixTimeJsonConverter))]
+        public DateTime Time { get; private set; }
+
+        /// <summary>
+        ///     Gets the version as specified by the protocol.
+        /// </summary>
+        [JsonProperty("ver", Required = Required.Always)]
+        public int Version { get; private set; }
     }
 }
