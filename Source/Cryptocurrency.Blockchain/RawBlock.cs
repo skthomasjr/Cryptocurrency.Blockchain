@@ -29,7 +29,7 @@ namespace Cryptocurrency.Blockchain
         ///     Gets the block index.
         /// </summary>
         [JsonProperty("block_index", Required = Required.Always)]
-        public long BlockIndex { get; private set; }
+        public long Index { get; private set; }
 
         /// <summary>
         ///     Gets the total transaction fee.
@@ -100,7 +100,7 @@ namespace Cryptocurrency.Blockchain
         ///     Gets the transactions.
         /// </summary>
         [JsonProperty("tx", Required = Required.Always)]
-        public IEnumerable<Transaction> Transactions { get; private set; }
+        public IEnumerable<RawBlockTransaction> Transactions { get; private set; }
 
         /// <summary>
         ///     Gets the version as specified by the protocol.

@@ -10,7 +10,7 @@ namespace Cryptocurrency.Blockchain
     public class InputTransaction
     {
         /// <summary>
-        /// Prevents a default instance of the <see cref="InputTransaction"/> class from being created.
+        ///     Prevents a default instance of the <see cref="InputTransaction" /> class from being created.
         /// </summary>
         private InputTransaction()
         {

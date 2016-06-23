@@ -9,6 +9,7 @@
     <Import_RootNamespace>Cryptocurrency.Blockchain</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Address.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BlockchainDataClient.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)InputTransaction.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)OutputTransaction.cs" />
@@ -17,6 +18,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Serialization\Converters\HexJsonConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Serialization\Converters\IpAddressJsonConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Serialization\Converters\UnixTimeJsonConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RawBlockTransaction.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Transaction.cs" />
   </ItemGroup>
 </Project>

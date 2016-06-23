@@ -10,17 +10,17 @@ namespace Cryptocurrency.Blockchain
     /// <summary>
     ///     Represents a blockchain transaction.
     /// </summary>
-    public class Transaction
+    public class RawBlockTransaction
     {
         /// <summary>
-        ///     Prevents a default instance of the <see cref="Transaction" /> class from being created.
+        ///     Prevents a default instance of the <see cref="RawBlockTransaction" /> class from being created.
         /// </summary>
-        private Transaction()
+        private RawBlockTransaction()
         {
         }
 
         /// <summary>
-        ///     Gets the parent block height. Null for unconfirmed transactions.
+        ///     Gets the block height. Null for unconfirmed transactions.
         /// </summary>
         [JsonProperty("block_height")]
         public long? BlockHeight { get; private set; }
@@ -33,9 +33,8 @@ namespace Cryptocurrency.Blockchain
         public Hex Hash { get; private set; }
 
         /// <summary>
-        ///     Gets the index.
+        ///     Gets the transaction index.
         /// </summary>
-        /// <value>The index.</value>
         [JsonProperty("tx_index", Required = Required.Always)]
         public long Index { get; private set; }
 
@@ -46,7 +45,7 @@ namespace Cryptocurrency.Blockchain
         public IEnumerable<InputTransaction> Inputs { get; private set; }
 
         /// <summary>
-        ///     Gets a value indicating whether this transaction has been double spent.
+        ///     Gets a value indicating whether this block has been double spent.
         /// </summary>
         [JsonProperty("double_spend")]
         public bool IsDoubleSpent { get; private set; }
@@ -58,7 +57,7 @@ namespace Cryptocurrency.Blockchain
         public IEnumerable<OutputTransaction> Outputs { get; private set; }
 
         /// <summary>
-        ///     Gets the IP address that relayed the transaction.
+        ///     Gets the IP address that relayed the block.
         /// </summary>
         [JsonProperty("relayed_by", Required = Required.Always)]
         [JsonConverter(typeof(IpAddressConverter))]
