@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptocurrency.Blockchain.N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptocurrency.Blockchain.Net40", "Cryptocurrency.Blockchain.Net40\Cryptocurrency.Blockchain.Net40.csproj", "{C8CC0877-D535-42CF-81C0-60DEEE3C5BDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptocurrency.Blockchain.SampleConsole", "Cryptocurrency.Blockchain.SampleConsole\Cryptocurrency.Blockchain.SampleConsole.csproj", "{369AEAA7-3299-4937-99D1-44208E9C48A6}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Cryptocurrency.Blockchain\Cryptocurrency.Blockchain.projitems*{042c4fc7-338e-4ca4-891a-a67957db5b67}*SharedItemsImports = 13
@@ -35,6 +37,10 @@ Global
 		{C8CC0877-D535-42CF-81C0-60DEEE3C5BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8CC0877-D535-42CF-81C0-60DEEE3C5BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8CC0877-D535-42CF-81C0-60DEEE3C5BDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{369AEAA7-3299-4937-99D1-44208E9C48A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{369AEAA7-3299-4937-99D1-44208E9C48A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{369AEAA7-3299-4937-99D1-44208E9C48A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{369AEAA7-3299-4937-99D1-44208E9C48A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

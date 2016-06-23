@@ -1,6 +1,5 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.Generic;
-using Cryptocurrency.Serialization.Converters;
 
 namespace Cryptocurrency.Blockchain.Serialization
 {
@@ -11,8 +10,8 @@ namespace Cryptocurrency.Blockchain.Serialization
             Converters = new List<JsonConverter> {
                 //new ByteArrayConverter(),
                 //new DateTimeConverter(),
-                new HexStringConverter(),
-                new Nonce32RangeConverter(),
+                //new HexStringConverter(),
+                //new Nonce32RangeConverter(),
                 //new NullableDateTimeConverter(),
                 //new TimeSpanConverter()
             };

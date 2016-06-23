@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using Types.Hexadecimal;
 
 namespace Cryptocurrency.Blockchain
 {
     public class Transaction
     {
-        public HexString Hash { get; set; }
+        public Hex Hash { get; set; }
 
         public long TransactionIndex { get; set; }
 

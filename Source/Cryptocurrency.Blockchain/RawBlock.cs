@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Types.Hexadecimal;
 
 namespace Cryptocurrency.Blockchain
 {
@@ -9,7 +10,7 @@ namespace Cryptocurrency.Blockchain
 
         public long Fee { get; set; }
 
-        public HexString Hash { get; set; }
+        public Hex Hash { get; set; }
 
         public int Height { get; set; }
 
@@ -17,11 +18,11 @@ namespace Cryptocurrency.Blockchain
 
         public bool IsMainChain { get; set; }
 
-        public HexString MerkleRoot { get; set; }
+        public Hex MerkleRoot { get; set; }
 
         public long Nonce { get; set; }
 
-        public HexString PreviousBlock { get; set; }
+        public Hex PreviousBlock { get; set; }
 
         public string RelayedBy { get; set; }
 
