@@ -12,6 +12,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Address.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BlockchainDataClient.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)InputTransaction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LatestBlock.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)OutputTransaction.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Properties\AssemblyInfo.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)RawBlock.cs" />

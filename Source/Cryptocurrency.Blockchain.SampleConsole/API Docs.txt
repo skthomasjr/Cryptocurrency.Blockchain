@@ -1,0 +1,10 @@
+﻿x	Single Block
+x	Single Transaction
+	Block Height
+x	Single Address
+	Multiple Addresses
+	Unspent Outputs
+x	Latest Block
+	Unconfirmed Transactions
+	Blocks
+	Inventory Data

@@ -11,8 +11,14 @@ namespace Cryptocurrency.Blockchain
         /// <summary>
         ///     Gets the resource representing addresses.
         /// </summary>
-        [Route("/address/{Hash160}", "/address/{Base58}", "/rawaddr/{Base58}")]
+        [Route("/rawaddr/{Base58}", "/rawaddr/{Hash160}")] //&limit=50 //&offset=100
         public Resource<Address> Addresses { get; private set; }
+
+        /// <summary>
+        ///     Gets the resource representing the latest blocks.
+        /// </summary>
+        [Route("/latestblock")]
+        public Resource<LatestBlock> LatestBlocks { get; private set; }
 
         /// <summary>
         ///     Gets the resource representing raw blockchain blocks.

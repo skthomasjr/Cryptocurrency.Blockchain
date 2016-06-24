@@ -71,6 +71,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="SampleData\rawaddr.1FW8KHjgtPTngKLHAw4YALtWoENsRpjt33.json" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
@@ -81,6 +82,9 @@
       <Project>{a2d043b6-0728-447d-87ab-5c3fd3262d9a}</Project>
       <Name>Cryptocurrency.Blockchain.Net461</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="API Docs.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
