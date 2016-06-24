@@ -1,4 +1,5 @@
-﻿using NetClient.Rest;
+﻿using System.Runtime.InteropServices;
+using NetClient.Rest;
 
 namespace Cryptocurrency.Blockchain
 {
@@ -11,7 +12,8 @@ namespace Cryptocurrency.Blockchain
         /// <summary>
         ///     Gets the resource representing addresses.
         /// </summary>
-        [Route("/rawaddr/{Base58}", "/rawaddr/{Hash160}")] //&limit=50 //&offset=100
+        [Route("/rawaddr/{Base58}", "/rawaddr/{Hash160}")]
+        //[Parameter("limit={Limit}", "offset={Offset}")]
         public Resource<Address> Addresses { get; private set; }
 
         /// <summary>
