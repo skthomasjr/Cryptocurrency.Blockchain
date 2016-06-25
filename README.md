@@ -24,11 +24,11 @@ Single Transaction | ✔
 Unconfirmed Transactions | soon
 Unspent Outputs | soon
 
-'''c#
+```c#
   var client = new BlockchainDataClient { OnError = ex => Console.WriteLine(ex.Message) };
   
   var addresses = from a in client.Addresses where a.Base58 == "1FW8KHjgtPTngKLHAw4YALtWoENsRpjt33" select a;
   var address = addresses.ToArray().SingleOrDefault();
   
   Console.WriteLine(address?.Base58);
-'''
+```
