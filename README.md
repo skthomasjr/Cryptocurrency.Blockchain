@@ -8,3 +8,16 @@
 [![Join the chat at https://gitter.im/skthomasjr/Cryptocurrency.Blockchain](https://badges.gitter.im/skthomasjr/Cryptocurrency.Blockchain.svg)](https://gitter.im/skthomasjr/Cryptocurrency.Blockchain?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Cryptocurrency.Blockchain is a library for interacting with the Blockchain Data API provided by Blockchain.info.
+
+API Call | Supported
+--- | :---:
+Block Height |
+Blocks |
+Inventory Data |
+Latest Block | ✔
+Multiple Addresses |
+Single Address | ✔
+Single Block | ✔
+Single Transaction | ✔
+Unconfirmed Transactions |
+Unspent Outputs |
