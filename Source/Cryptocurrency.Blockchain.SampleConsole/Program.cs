@@ -9,10 +9,14 @@ namespace Cryptocurrency.Blockchain.SampleConsole
         {
             var client = new BlockchainDataClient { OnError = ex => Console.WriteLine(ex.Message) };
 
-            var addresses = from a in client.Addresses where a.Base58 == "1FW8KHjgtPTngKLHAw4YALtWoENsRpjt33" select a;
-            var address = addresses.ToArray().SingleOrDefault();
+            // Using LINQ method syntax.
+            var address = client.Addresses
+                .Where(a => a.Base58 == "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa")
+                .ToArray()
+                .SingleOrDefault();
             Console.WriteLine(address?.Base58);
 
+            // Using LINQ query syntax.
             var latestBlocks = from r in client.LatestBlocks select r;
             var latestBlock = latestBlocks.ToArray().SingleOrDefault();
             Console.WriteLine(latestBlock?.Index);

@@ -10,6 +10,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Address.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AddressCriteria.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BlockchainDataClient.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)InputTransaction.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)LatestBlock.cs" />

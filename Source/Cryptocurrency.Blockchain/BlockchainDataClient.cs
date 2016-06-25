@@ -1,5 +1,4 @@
-﻿using System.Runtime.InteropServices;
-using NetClient.Rest;
+﻿using NetClient.Rest;
 
 namespace Cryptocurrency.Blockchain
 {
@@ -12,9 +11,9 @@ namespace Cryptocurrency.Blockchain
         /// <summary>
         ///     Gets the resource representing addresses.
         /// </summary>
-        [Route("/rawaddr/{Base58}", "/rawaddr/{Hash160}")]
-        //[Parameter("limit={Limit}", "offset={Offset}")]
-        public Resource<Address> Addresses { get; private set; }
+        [Routes("/rawaddr/{Base58}", "/rawaddr/{Hash160}")]
+        [Parameters("limit={Limit}", "offset={Offset}")]
+        public Resource<Address, AddressCriteria> Addresses { get; private set; }
 
         /// <summary>
         ///     Gets the resource representing the latest blocks.
@@ -25,13 +24,13 @@ namespace Cryptocurrency.Blockchain
         /// <summary>
         ///     Gets the resource representing raw blockchain blocks.
         /// </summary>
-        [Route("/rawblock/{Index}", "/rawblock/{Hash}")]
+        [Routes("/rawblock/{Index}", "/rawblock/{Hash}")]
         public Resource<RawBlock> RawBlocks { get; private set; }
 
         /// <summary>
         ///     Gets the resource representing blockchain transactions.
         /// </summary>
-        [Route("/rawtx/{Index}", "/rawtx/{Hash}", "/tx-index/{Index}")]
+        [Routes("/rawtx/{Index}", "/rawtx/{Hash}")]
         public Resource<Transaction> Transactions { get; private set; }
     }
 }
