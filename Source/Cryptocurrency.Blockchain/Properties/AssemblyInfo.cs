@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("Cryptocurrency.Blockchain")]
-[assembly: AssemblyDescription("Cryptocurrency.Blockchain is a library for interacting with the Blockchain.info API.")]
+[assembly: AssemblyDescription("Cryptocurrency.Blockchain is a library for interacting with the Blockchain Data API provided by Blockchain.info.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Scott Keith Thomas, Jr.")]
 [assembly: AssemblyProduct("Cryptocurrency.Blockchain")]
