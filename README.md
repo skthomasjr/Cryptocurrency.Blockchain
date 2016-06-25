@@ -26,19 +26,20 @@ Unspent Outputs | soon
 
 This API library allows interacting with the API service using LINQ query syntax or LINQ method syntax. Example of making an API call using LINQ query syntax:
 ```c#
-  var client = new BlockchainDataClient { OnError = ex => Console.WriteLine(ex.Message) };
-  
-  var addresses = from a in client.Addresses where a.Base58 == "1FW8KHjgtPTngKLHAw4YALtWoENsRpjt33" select a;
-  var address = addresses.ToArray().SingleOrDefault();  // Actual HTTP call not made until we enumerate here.
-  
-  Console.WriteLine(address?.Base58);
+var client = new BlockchainDataClient { OnError = ex => Console.WriteLine(ex.Message) };
+
+var addresses = from a in client.Addresses where a.Base58 == "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa" select a;
+var address = addresses.ToArray().SingleOrDefault();  // Actual HTTP call not made until we enumerate here.
+
+Console.WriteLine(address?.Base58);
 ```
 The came call using LINQ method syntax:
 ```c#
-  var client = new BlockchainDataClient { OnError = ex => Console.WriteLine(ex.Message) };
-  
-  var addresses = from a in client.Addresses where a.Base58 == "1FW8KHjgtPTngKLHAw4YALtWoENsRpjt33" select a;
-  var address = addresses.ToArray().SingleOrDefault();  // Actual HTTP call not made until we enumerate here.
-  
-  Console.WriteLine(address?.Base58);
+var client = new BlockchainDataClient { OnError = ex => Console.WriteLine(ex.Message) };
+
+var address = client.Addresses
+  .Where(a => a.Base58 == "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa")
+  .ToArray().SingleOrDefault();
+
+Console.WriteLine(address?.Base58);
 ```
