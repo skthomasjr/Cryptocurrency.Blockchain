@@ -24,11 +24,12 @@ Single Transaction | ✔
 Unconfirmed Transactions | soon
 Unspent Outputs | soon
 
+This API library allows interacting with the API service using LINQ query or method syntax. Example of making an API call using LINQ query syntax:
 ```c#
   var client = new BlockchainDataClient { OnError = ex => Console.WriteLine(ex.Message) };
   
   var addresses = from a in client.Addresses where a.Base58 == "1FW8KHjgtPTngKLHAw4YALtWoENsRpjt33" select a;
-  var address = addresses.ToArray().SingleOrDefault();
+  var address = addresses.ToArray().SingleOrDefault();  // Actual HTTP call not made until we enumerate here.
   
   Console.WriteLine(address?.Base58);
 ```
