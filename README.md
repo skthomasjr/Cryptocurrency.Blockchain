@@ -9,6 +9,8 @@
 
 Cryptocurrency.Blockchain is a library for interacting with the Blockchain Data API provided by Blockchain.info.
 
+The API library is implemented using NetClient.Rest - a generic & asyncronous REST API client that allows you to make API calls using LINQ syntax. Current API call support:
+
 API Call | Supported
 --- | :---:
 Block Height |
