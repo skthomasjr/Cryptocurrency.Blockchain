@@ -7,4 +7,4 @@
 [![Author](https://img.shields.io/badge/author-Scott%20K.%20Thomas%2C%20Jr.-blue.svg?maxAge=2592000)](https://www.linkedin.com/in/skthomasjr)
 [![Join the chat at https://gitter.im/skthomasjr/Cryptocurrency.Blockchain](https://badges.gitter.im/skthomasjr/Cryptocurrency.Blockchain.svg)](https://gitter.im/skthomasjr/Cryptocurrency.Blockchain?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Cryptocurrency.Blockchain is a library for interacting with the Blockchain.info API.
+Cryptocurrency.Blockchain is a library for interacting with the Blockchain Data API provided by Blockchain.info.
