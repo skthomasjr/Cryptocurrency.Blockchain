@@ -13,13 +13,13 @@ The API library is implemented using NetClient.Rest - a generic & asyncronous RE
 
 API Call | Supported
 --- | :---:
-Block Height |
-Blocks |
-Inventory Data |
+Block Height | soon
+Blocks | soon
+Inventory Data | soon
 Latest Block | ✔
-Multiple Addresses |
+Multiple Addresses | soon
 Single Address | ✔
 Single Block | ✔
 Single Transaction | ✔
-Unconfirmed Transactions |
-Unspent Outputs |
+Unconfirmed Transactions | soon
+Unspent Outputs | soon
