@@ -9,14 +9,6 @@ namespace Cryptocurrency.Blockchain.SampleConsole
         {
             var client = new BlockchainDataClient { OnError = ex => Console.WriteLine(ex.Message) };
 
-
-            var blocks = client.BlocksAtHeight
-                .Where(b => b.Height == 100)
-                .ToArray()
-                .SingleOrDefault();
-
-
-
             // Using LINQ method syntax.
             var address = client.Addresses
                 .Where(a => a.Base58 == "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa")
@@ -36,6 +28,12 @@ namespace Cryptocurrency.Blockchain.SampleConsole
             var transactions = from t in client.Transactions where t.Index == 57048523 select t;
             var transaction = transactions.ToArray().SingleOrDefault();
             Console.WriteLine(transaction?.Index);
+
+            var block = client.BlocksAtHeight
+                .Where(b => b.Height == 100)
+                .ToArray()
+                .SingleOrDefault()?.Blocks.FirstOrDefault();
+            Console.WriteLine(block?.Hash);
 
             Console.ReadKey();
         }
