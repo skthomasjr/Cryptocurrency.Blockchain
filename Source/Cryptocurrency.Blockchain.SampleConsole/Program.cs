@@ -9,6 +9,14 @@ namespace Cryptocurrency.Blockchain.SampleConsole
         {
             var client = new BlockchainDataClient { OnError = ex => Console.WriteLine(ex.Message) };
 
+
+            var blocks = client.BlocksAtHeight
+                .Where(b => b.Height == 100)
+                .ToArray()
+                .SingleOrDefault();
+
+
+
             // Using LINQ method syntax.
             var address = client.Addresses
                 .Where(a => a.Base58 == "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa")

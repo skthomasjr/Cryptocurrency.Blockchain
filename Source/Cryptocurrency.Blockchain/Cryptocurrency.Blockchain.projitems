@@ -10,7 +10,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Address.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)AddressCriteria.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BlockchainDataClient.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)InputTransaction.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)LatestBlock.cs" />
@@ -22,5 +21,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Serialization\Converters\UnixTimeJsonConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)RawBlockTransaction.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Transaction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BlocksAtHeight.cs" />
   </ItemGroup>
 </Project>

@@ -34,12 +34,12 @@
     <DocumentationFile>bin\Release\Cryptocurrency.Blockchain.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NetClient, Version=1.0.25.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\NetClient.1.0.25\lib\net461\NetClient.dll</HintPath>
+    <Reference Include="NetClient, Version=1.0.27.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\NetClient.1.0.27\lib\net461\NetClient.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="NetClient.Rest, Version=1.0.64.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\NetClient.Rest.1.0.64\lib\net461\NetClient.Rest.dll</HintPath>
+    <Reference Include="NetClient.Rest, Version=1.0.70.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\NetClient.Rest.1.0.70\lib\net461\NetClient.Rest.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -47,6 +47,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Core" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Net.Http" />

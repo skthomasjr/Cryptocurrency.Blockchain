@@ -10,21 +10,16 @@ namespace Cryptocurrency.Blockchain
     public class InputTransaction
     {
         /// <summary>
-        ///     Prevents a default instance of the <see cref="InputTransaction" /> class from being created.
-        /// </summary>
-        private InputTransaction()
-        {
-        }
-
-        /// <summary>
         ///     Gets the previous output. Null for coinbase input.
         /// </summary>
+        /// <value>The previous output.</value>
         [JsonProperty("prev_out")]
         public OutputTransaction PreviousOutput { get; private set; }
 
         /// <summary>
         ///     Gets the script signature.
         /// </summary>
+        /// <value>The script.</value>
         [JsonProperty("script", Required = Required.Always)]
         [JsonConverter(typeof(HexJsonConverter))]
         public Hex Script { get; private set; }
@@ -32,6 +27,7 @@ namespace Cryptocurrency.Blockchain
         /// <summary>
         ///     Gets the sequence.
         /// </summary>
+        /// <value>The sequence.</value>
         [JsonProperty("sequence", Required = Required.Always)]
         public long Sequence { get; private set; }
     }

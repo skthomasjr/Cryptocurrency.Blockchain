@@ -9,51 +9,63 @@ namespace Cryptocurrency.Blockchain
     public class Address
     {
         /// <summary>
-        ///     Prevents a default instance of the <see cref="Address" /> class from being created.
-        /// </summary>
-        private Address()
-        {
-        }
-
-        /// <summary>
         ///     Gets the final balance.
         /// </summary>
+        /// <value>The balance.</value>
         [JsonProperty("final_balance", Required = Required.Always)]
         public decimal Balance { get; private set; }
 
         /// <summary>
         ///     Gets the BASE58 representation of the address.
         /// </summary>
+        /// <value>The base58.</value>
         [JsonProperty("address", Required = Required.Always)]
         public string Base58 { get; private set; }
 
         /// <summary>
         ///     Gets the Hash160 representation of the address.
         /// </summary>
+        /// <value>The hash160.</value>
         [JsonProperty("hash160", Required = Required.Always)]
         public string Hash160 { get; private set; }
 
         /// <summary>
+        ///     Gets the limit. Used as the resource criteria. Value is never set.
+        /// </summary>
+        /// <value>The limit.</value>
+        public int Limit { get; }
+
+        /// <summary>
+        ///     Gets the offset. Used as the resource criteria. Value is never set.
+        /// </summary>
+        /// <value>The offset.</value>
+        public int Offset { get; }
+
+        /// <summary>
         ///     Gets the total amount received.
         /// </summary>
+        /// <value>The received.</value>
         [JsonProperty("total_received", Required = Required.Always)]
         public decimal Received { get; private set; }
 
         /// <summary>
         ///     Gets the total amount sent.
         /// </summary>
+        /// <value>The sent.</value>
         [JsonProperty("total_sent", Required = Required.Always)]
         public decimal Sent { get; private set; }
 
         /// <summary>
         ///     Gets the total count of all transactions.
         /// </summary>
+        /// <value>The transaction count.</value>
         [JsonProperty("n_tx", Required = Required.Always)]
         public long TransactionCount { get; private set; }
 
         /// <summary>
         ///     Gets the transactions.
         /// </summary>
+        /// <value>The transactions.</value>
         [JsonProperty("txs", Required = Required.Always)]
         public IEnumerable<Transaction> Transactions { get; private set; }
     }
