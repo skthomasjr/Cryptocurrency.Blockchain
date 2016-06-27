@@ -1,4 +1,5 @@
-﻿using NetClient.Rest;
+﻿using System.Collections.Generic;
+using NetClient.Rest;
 
 namespace Cryptocurrency.Blockchain
 {
@@ -21,7 +22,8 @@ namespace Cryptocurrency.Blockchain
         /// </summary>
         /// <value>The height of the blocks at.</value>
         [Routes("/block-height/{Height}?format=json")]
-        public Resource<BlockHeight> BlockHeight { get; private set; }
+        [RootNode("blocks")]
+        public Resource<RawBlock> Blocks { get; private set; }
 
         /// <summary>
         ///     Gets the inventory data.
@@ -52,18 +54,19 @@ namespace Cryptocurrency.Blockchain
         public Resource<Transaction> Transactions { get; private set; }
 
         /// <summary>
-        ///     Gets the unconfirmed transactions.
+        ///     Gets the resource representing unconfirmed transactions.
         /// </summary>
         /// <value>The unconfirmed transactions.</value>
         [Routes("/unconfirmed-transactions?format=json")]
         public Resource<UnconfirmedTransactions> UnconfirmedTransactions { get; private set; }
 
-        ///// <summary>
-        /////     Gets the unspent outputs.
-        ///// </summary>
-        ///// <value>The unspent outputs.</value>
-        //[Routes("/unspent?active={Address}", "/unspent?active={Addresses}")]
-        //public Resource<IEnumerable<UnspentOutput>, UnspentOutput> UnspentOutputs { get; private set; }
-        //UnspentOutputs, MultipleAddresses, Blocks
+        /// <summary>
+        ///     Gets the resource representing unspent outputs.
+        /// </summary>
+        /// <value>The unspent outputs.</value>
+        [Routes("/unspent?active={Address}", "/unspent?active={Addresses}")]
+        [RootNode("unspent_outputs")]
+        public Resource<UnspentOutput> UnspentOutputs { get; private set; }
+        //MultipleAddresses, Blocks
     }
 }
