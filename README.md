@@ -21,7 +21,7 @@ Multiple Addresses | soon
 Single Address | ✔
 Single Block | ✔
 Single Transaction | ✔
-Unconfirmed Transactions | soon
+Unconfirmed Transactions | ✔
 Unspent Outputs | soon
 
 This API library allows interacting with the API service using LINQ query syntax or LINQ method syntax. Example of making an API call using LINQ query syntax:
