@@ -11,6 +11,12 @@ namespace Cryptocurrency.Blockchain
     public class Address
     {
         /// <summary>
+        ///     Gets the addresses. Used as the resource criteria. Value is never set.
+        /// </summary>
+        /// <value>The addresses.</value>
+        public string Addresses { get; }
+
+        /// <summary>
         ///     Gets the final balance.
         /// </summary>
         /// <value>The balance.</value>

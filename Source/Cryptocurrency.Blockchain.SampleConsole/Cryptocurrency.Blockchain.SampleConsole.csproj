@@ -72,6 +72,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="SampleData\json1.json" />
     <None Include="SampleData\rawaddr.1FW8KHjgtPTngKLHAw4YALtWoENsRpjt33.json" />
     <None Include="packages.config">
       <SubType>Designer</SubType>

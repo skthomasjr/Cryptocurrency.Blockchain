@@ -9,6 +9,19 @@ namespace Cryptocurrency.Blockchain.SampleConsole
         {
             var client = new BlockchainDataClient { OnError = ex => Console.WriteLine(ex.Message) };
 
+            var addresses = client.Addresses2
+                .Where(b => b.Addresses == "1FW8KHjgtPTngKLHAw4YALtWoENsRpjt33|1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa")
+                .ToArray();
+            Console.WriteLine(addresses?.Count());
+
+            var miningPool = "Eligius";
+            var fiveDaysAgo = new DateTimeOffset(DateTime.UtcNow - TimeSpan.FromDays(5)).ToUnixTimeMilliseconds();
+            var minedBlocks = client.MinedBlocks
+                .Where(b => b.MiningPool == miningPool)
+                //.Where(b => b.DayInUnixTimeMilliseconds == fiveDaysAgo)
+                .ToArray();
+            Console.WriteLine(minedBlocks?.Count());
+
             // Using LINQ method syntax.
             var address = client.Addresses
                 .Where(a => a.Base58 == "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa")

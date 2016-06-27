@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using NetClient.Rest;
+﻿using NetClient.Rest;
 
 namespace Cryptocurrency.Blockchain
 {
@@ -16,6 +15,11 @@ namespace Cryptocurrency.Blockchain
         [Routes("/rawaddr/{Base58}", "/rawaddr/{Hash160}")]
         [Parameters("limit={Limit}", "offset={Offset}")]
         public Resource<Address> Addresses { get; private set; }
+
+
+        [Routes("/multiaddr?active={Addresses}")]
+        [RootNode("addresses")]
+        public Resource<Address> Addresses2 { get; private set; }
 
         /// <summary>
         ///     Gets the resource representing blocks at a given height.
@@ -38,6 +42,15 @@ namespace Cryptocurrency.Blockchain
         /// <value>The latest blocks.</value>
         [Route("/latestblock")]
         public Resource<LatestBlock> LatestBlocks { get; private set; }
+
+        /// <summary>
+        ///     Gets the resource representing mined blocks.
+        /// </summary>
+        /// <value>The mined blocks.</value>
+        [Routes("/blocks/{DayInUnixTimeMilliseconds}?format=json")]
+        [Routes("/blocks/{MiningPool}?format=json")]
+        [RootNode("blocks")]
+        public Resource<MinedBlock> MinedBlocks { get; private set; }
 
         /// <summary>
         ///     Gets the resource representing raw blockchain blocks.
@@ -68,6 +81,7 @@ namespace Cryptocurrency.Blockchain
         [Routes("/unspent?active={Address}", "/unspent?active={Addresses}")]
         [RootNode("unspent_outputs")]
         public Resource<UnspentOutput> UnspentOutputs { get; private set; }
-        //MultipleAddresses, Blocks
+
+        //MultipleAddresses
     }
 }
