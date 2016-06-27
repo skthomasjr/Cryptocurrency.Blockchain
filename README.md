@@ -14,7 +14,7 @@ The API library is implemented using [NetClient.Rest](https://github.com/skthoma
 API Call | Supported
 --- | :---:
 Block Height | ✔
-Blocks | soon
+Mined Blocks | ✔
 Inventory Data | ✔
 Latest Block | ✔
 Multiple Addresses | soon
