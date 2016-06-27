@@ -9,7 +9,7 @@ namespace Cryptocurrency.Blockchain.SampleConsole
         {
             var client = new BlockchainDataClient { OnError = ex => Console.WriteLine(ex.Message) };
 
-            var addresses = client.Addresses2
+            var addresses = client.MultiAddresses
                 .Where(b => b.Addresses == "1FW8KHjgtPTngKLHAw4YALtWoENsRpjt33|1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa")
                 .ToArray();
             Console.WriteLine(addresses?.Count());

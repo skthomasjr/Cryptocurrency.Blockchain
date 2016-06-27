@@ -16,11 +16,6 @@ namespace Cryptocurrency.Blockchain
         [Parameters("limit={Limit}", "offset={Offset}")]
         public Resource<Address> Addresses { get; private set; }
 
-
-        [Routes("/multiaddr?active={Addresses}")]
-        [RootNode("addresses")]
-        public Resource<Address> Addresses2 { get; private set; }
-
         /// <summary>
         ///     Gets the resource representing blocks at a given height.
         /// </summary>
@@ -51,6 +46,14 @@ namespace Cryptocurrency.Blockchain
         [Routes("/blocks/{MiningPool}?format=json")]
         [RootNode("blocks")]
         public Resource<MinedBlock> MinedBlocks { get; private set; }
+
+        /// <summary>
+        ///     Gets the resource representing multiple addresses.
+        /// </summary>
+        /// <value>The multi addresses.</value>
+        [Routes("/multiaddr?active={Addresses}")]
+        [RootNode("addresses")]
+        public Resource<AddressSummary> MultiAddresses { get; private set; }
 
         /// <summary>
         ///     Gets the resource representing raw blockchain blocks.

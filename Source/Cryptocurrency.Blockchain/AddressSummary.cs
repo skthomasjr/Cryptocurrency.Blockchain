@@ -1,15 +1,19 @@
-﻿using System.Collections.Generic;
-using Cryptocurrency.Blockchain.Serialization.Converters;
+﻿using Cryptocurrency.Blockchain.Serialization.Converters;
 using Newtonsoft.Json;
-using Types.Hexadecimal;
 
 namespace Cryptocurrency.Blockchain
 {
     /// <summary>
-    ///     Represents an address.
+    ///     Represents an address summary.
     /// </summary>
-    public class Address
+    public class AddressSummary
     {
+        /// <summary>
+        ///     Gets the addresses. Used as the resource criteria. Value is never set.
+        /// </summary>
+        /// <value>The addresses.</value>
+        public string Addresses { get; }
+
         /// <summary>
         ///     Gets the final balance.
         /// </summary>
@@ -24,26 +28,6 @@ namespace Cryptocurrency.Blockchain
         /// <value>The base58.</value>
         [JsonProperty("address", Required = Required.Always)]
         public string Base58 { get; private set; }
-
-        /// <summary>
-        ///     Gets the Hash160 representation of the address.
-        /// </summary>
-        /// <value>The hash160.</value>
-        [JsonProperty("hash160", Required = Required.Always)]
-        [JsonConverter(typeof(HexJsonConverter))]
-        public Hex Hash160 { get; private set; }
-
-        /// <summary>
-        ///     Gets the limit. Used as the resource criteria. Value is never set.
-        /// </summary>
-        /// <value>The limit.</value>
-        public int Limit { get; }
-
-        /// <summary>
-        ///     Gets the offset. Used as the resource criteria. Value is never set.
-        /// </summary>
-        /// <value>The offset.</value>
-        public int Offset { get; }
 
         /// <summary>
         ///     Gets the total amount received.
@@ -67,12 +51,5 @@ namespace Cryptocurrency.Blockchain
         /// <value>The transaction count.</value>
         [JsonProperty("n_tx", Required = Required.Always)]
         public long TransactionCount { get; private set; }
-
-        /// <summary>
-        ///     Gets the transactions.
-        /// </summary>
-        /// <value>The transactions.</value>
-        [JsonProperty("txs", Required = Required.Always)]
-        public IEnumerable<Transaction> Transactions { get; private set; }
     }
 }
