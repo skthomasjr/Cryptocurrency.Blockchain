@@ -23,5 +23,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)RawBlockTransaction.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Transaction.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BlockHeight.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UnconfirmedTransactions.cs" />
   </ItemGroup>
 </Project>

@@ -35,6 +35,11 @@ namespace Cryptocurrency.Blockchain.SampleConsole
                 .SingleOrDefault()?.Blocks.FirstOrDefault();
             Console.WriteLine(block?.Hash);
 
+            var unconfirmedTransactions = client.UnconfirmedTransactions
+                .ToArray()
+                .SingleOrDefault();
+            Console.WriteLine(unconfirmedTransactions?.Transactions.Count());
+
             Console.ReadKey();
         }
     }

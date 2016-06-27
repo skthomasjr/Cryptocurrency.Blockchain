@@ -43,5 +43,12 @@ namespace Cryptocurrency.Blockchain
         /// <value>The transactions.</value>
         [Routes("/rawtx/{Index}", "/rawtx/{Hash}")]
         public Resource<Transaction> Transactions { get; private set; }
+
+        /// <summary>
+        ///     Gets the unconfirmed transactions.
+        /// </summary>
+        /// <value>The unconfirmed transactions.</value>
+        [Routes("/unconfirmed-transactions?format=json")]
+        public Resource<UnconfirmedTransactions> UnconfirmedTransactions { get; private set; }
     }
 }
