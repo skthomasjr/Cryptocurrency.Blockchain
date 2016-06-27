@@ -15,7 +15,7 @@ API Call | Supported
 --- | :---:
 Block Height | ✔
 Blocks | soon
-Inventory Data | soon
+Inventory Data | ✔
 Latest Block | ✔
 Multiple Addresses | soon
 Single Address | ✔
