@@ -75,7 +75,7 @@ namespace Cryptocurrency.Blockchain
         /// </summary>
         /// <value>The time.</value>
         [JsonProperty("time", Required = Required.Always)]
-        [JsonConverter(typeof(UnixTimeJsonConverter))]
+        [JsonConverter(typeof(UnixTimeSecondsJsonConverter))]
         public DateTime Time { get; private set; }
 
         /// <summary>

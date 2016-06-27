@@ -24,6 +24,13 @@ namespace Cryptocurrency.Blockchain
         public Resource<BlockHeight> BlockHeight { get; private set; }
 
         /// <summary>
+        ///     Gets the inventory data.
+        /// </summary>
+        /// <value>The inventory data.</value>
+        [Route("/inv/{HashString}?format=json")]
+        public Resource<InventoryData> InventoryData { get; private set; }
+
+        /// <summary>
         ///     Gets the resource representing the latest blocks.
         /// </summary>
         /// <value>The latest blocks.</value>
@@ -50,5 +57,13 @@ namespace Cryptocurrency.Blockchain
         /// <value>The unconfirmed transactions.</value>
         [Routes("/unconfirmed-transactions?format=json")]
         public Resource<UnconfirmedTransactions> UnconfirmedTransactions { get; private set; }
+
+        ///// <summary>
+        /////     Gets the unspent outputs.
+        ///// </summary>
+        ///// <value>The unspent outputs.</value>
+        //[Routes("/unspent?active={Address}", "/unspent?active={Addresses}")]
+        //public Resource<IEnumerable<UnspentOutput>, UnspentOutput> UnspentOutputs { get; private set; }
+        //UnspentOutputs, MultipleAddresses, Blocks
     }
 }

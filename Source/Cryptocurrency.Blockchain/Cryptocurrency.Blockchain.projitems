@@ -12,6 +12,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Address.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BlockchainDataClient.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)InputTransaction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)InventoryData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)LatestBlock.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)OutputTransaction.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Properties\AssemblyInfo.cs" />
@@ -19,10 +20,12 @@
     <Compile Include="$(MSBuildThisFileDirectory)Serialization\Converters\HexJsonConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Serialization\Converters\IpAddressJsonConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Serialization\Converters\SatoshiValueJsonConverter.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Serialization\Converters\UnixTimeJsonConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\Converters\UnixTimeMillisecondsJsonConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\Converters\UnixTimeSecondsJsonConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)RawBlockTransaction.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Transaction.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BlockHeight.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)UnconfirmedTransactions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UnspentOutput.cs" />
   </ItemGroup>
 </Project>

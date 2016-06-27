@@ -40,6 +40,12 @@ namespace Cryptocurrency.Blockchain.SampleConsole
                 .SingleOrDefault();
             Console.WriteLine(unconfirmedTransactions?.Transactions.Count());
 
+            var inventoryData = client.InventoryData
+                .Where(i => i.HashString == "c05b8b6ce0f911be8e5185b7d0efa74f5b5495386ddcfcb0c7929caaae8baf6f")
+                .ToArray()
+                .SingleOrDefault();
+            Console.WriteLine(inventoryData?.Hash);
+
             Console.ReadKey();
         }
     }

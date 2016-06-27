@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace Cryptocurrency.Blockchain.Serialization.Converters
 {
-    internal class UnixTimeJsonConverter : JsonConverter
+    internal class UnixTimeSecondsJsonConverter : JsonConverter
     {
         public override bool CanConvert(Type objectType)
         {
@@ -12,7 +12,7 @@ namespace Cryptocurrency.Blockchain.Serialization.Converters
 
         public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
         {
-            return DateTimeOffset.FromUnixTimeSeconds((long) reader.Value).UtcDateTime;
+            return DateTimeOffset.FromUnixTimeSeconds(long.Parse(reader.Value.ToString())).UtcDateTime;
         }
 
         public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
