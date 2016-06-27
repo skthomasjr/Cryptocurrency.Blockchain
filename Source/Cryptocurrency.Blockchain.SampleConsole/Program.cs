@@ -29,10 +29,10 @@ namespace Cryptocurrency.Blockchain.SampleConsole
             var transaction = transactions.ToArray().SingleOrDefault();
             Console.WriteLine(transaction?.Index);
 
-            var block = client.BlockHeight
+            var block = client.Blocks
                 .Where(b => b.Height == 234003)
                 .ToArray()
-                .SingleOrDefault()?.Blocks.FirstOrDefault();
+                .FirstOrDefault();
             Console.WriteLine(block?.Hash);
 
             var unconfirmedTransactions = client.UnconfirmedTransactions
@@ -40,8 +40,14 @@ namespace Cryptocurrency.Blockchain.SampleConsole
                 .SingleOrDefault();
             Console.WriteLine(unconfirmedTransactions?.Transactions.Count());
 
+            var unspentOutputs = client.UnspentOutputs
+                .Where(u => u.Address == "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa")
+                .ToArray();
+            Console.WriteLine(unspentOutputs.Count());
+
+            var latestBlockHash = latestBlock.Hash.ToString();
             var inventoryData = client.InventoryData
-                .Where(i => i.HashString == "c05b8b6ce0f911be8e5185b7d0efa74f5b5495386ddcfcb0c7929caaae8baf6f")
+                .Where(i => i.HashString == latestBlockHash) //"000000000000000000575193009e04e9ca091510d63478b7bbaab4ab8382d629")
                 .ToArray()
                 .SingleOrDefault();
             Console.WriteLine(inventoryData?.Hash);
