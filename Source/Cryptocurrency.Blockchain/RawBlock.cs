@@ -24,6 +24,7 @@ namespace Cryptocurrency.Blockchain
         /// </summary>
         /// <value>The fee.</value>
         [JsonProperty("fee", Required = Required.Always)]
+        [JsonConverter(typeof(SatoshiValueJsonConverter))]
         public decimal Fee { get; private set; }
 
         /// <summary>

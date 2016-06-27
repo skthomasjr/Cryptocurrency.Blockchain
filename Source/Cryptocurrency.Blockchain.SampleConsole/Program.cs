@@ -29,8 +29,8 @@ namespace Cryptocurrency.Blockchain.SampleConsole
             var transaction = transactions.ToArray().SingleOrDefault();
             Console.WriteLine(transaction?.Index);
 
-            var block = client.BlocksAtHeight
-                .Where(b => b.Height == 100)
+            var block = client.BlockHeight
+                .Where(b => b.Height == 234003)
                 .ToArray()
                 .SingleOrDefault()?.Blocks.FirstOrDefault();
             Console.WriteLine(block?.Hash);

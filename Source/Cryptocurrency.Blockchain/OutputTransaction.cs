@@ -50,6 +50,7 @@ namespace Cryptocurrency.Blockchain
         /// </summary>
         /// <value>The value.</value>
         [JsonProperty("value", Required = Required.Always)]
+        [JsonConverter(typeof(SatoshiValueJsonConverter))]
         public decimal Value { get; private set; }
     }
 }

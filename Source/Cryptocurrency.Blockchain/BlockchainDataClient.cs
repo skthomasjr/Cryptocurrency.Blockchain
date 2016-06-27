@@ -21,7 +21,7 @@ namespace Cryptocurrency.Blockchain
         /// </summary>
         /// <value>The height of the blocks at.</value>
         [Routes("/block-height/{Height}?format=json")]
-        public Resource<BlocksAtHeight> BlocksAtHeight { get; private set; }
+        public Resource<BlockHeight> BlockHeight { get; private set; }
 
         /// <summary>
         ///     Gets the resource representing the latest blocks.

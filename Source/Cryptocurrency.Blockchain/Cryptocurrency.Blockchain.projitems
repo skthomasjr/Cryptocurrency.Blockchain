@@ -18,9 +18,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)RawBlock.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Serialization\Converters\HexJsonConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Serialization\Converters\IpAddressJsonConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\Converters\SatoshiValueJsonConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Serialization\Converters\UnixTimeJsonConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)RawBlockTransaction.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Transaction.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)BlocksAtHeight.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BlockHeight.cs" />
   </ItemGroup>
 </Project>

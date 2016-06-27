@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
+using Cryptocurrency.Blockchain.Serialization.Converters;
 using Newtonsoft.Json;
+using Types.Hexadecimal;
 
 namespace Cryptocurrency.Blockchain
 {
@@ -13,6 +15,7 @@ namespace Cryptocurrency.Blockchain
         /// </summary>
         /// <value>The balance.</value>
         [JsonProperty("final_balance", Required = Required.Always)]
+        [JsonConverter(typeof(SatoshiValueJsonConverter))]
         public decimal Balance { get; private set; }
 
         /// <summary>
@@ -27,7 +30,8 @@ namespace Cryptocurrency.Blockchain
         /// </summary>
         /// <value>The hash160.</value>
         [JsonProperty("hash160", Required = Required.Always)]
-        public string Hash160 { get; private set; }
+        [JsonConverter(typeof(HexJsonConverter))]
+        public Hex Hash160 { get; private set; }
 
         /// <summary>
         ///     Gets the limit. Used as the resource criteria. Value is never set.
@@ -46,6 +50,7 @@ namespace Cryptocurrency.Blockchain
         /// </summary>
         /// <value>The received.</value>
         [JsonProperty("total_received", Required = Required.Always)]
+        [JsonConverter(typeof(SatoshiValueJsonConverter))]
         public decimal Received { get; private set; }
 
         /// <summary>
@@ -53,6 +58,7 @@ namespace Cryptocurrency.Blockchain
         /// </summary>
         /// <value>The sent.</value>
         [JsonProperty("total_sent", Required = Required.Always)]
+        [JsonConverter(typeof(SatoshiValueJsonConverter))]
         public decimal Sent { get; private set; }
 
         /// <summary>

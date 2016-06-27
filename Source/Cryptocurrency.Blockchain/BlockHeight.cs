@@ -6,7 +6,7 @@ namespace Cryptocurrency.Blockchain
     /// <summary>
     ///     Represents blocks at a given height.
     /// </summary>
-    public class BlocksAtHeight
+    public class BlockHeight
     {
         /// <summary>
         ///     Gets the blocks.
