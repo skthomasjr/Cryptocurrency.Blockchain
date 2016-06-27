@@ -24,8 +24,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Serialization\Converters\UnixTimeSecondsJsonConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)RawBlockTransaction.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Transaction.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)BlockHeight.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)UnconfirmedTransactions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)UnspentOutput.cs" />
   </ItemGroup>
 </Project>

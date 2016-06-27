@@ -36,18 +36,16 @@ namespace Cryptocurrency.Blockchain.SampleConsole
             Console.WriteLine(block?.Hash);
 
             var unconfirmedTransactions = client.UnconfirmedTransactions
-                .ToArray()
-                .SingleOrDefault();
-            Console.WriteLine(unconfirmedTransactions?.Transactions.Count());
+                .ToArray();
+            Console.WriteLine(unconfirmedTransactions?.Count());
 
             var unspentOutputs = client.UnspentOutputs
                 .Where(u => u.Address == "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa")
                 .ToArray();
             Console.WriteLine(unspentOutputs.Count());
 
-            var latestBlockHash = latestBlock.Hash.ToString();
             var inventoryData = client.InventoryData
-                .Where(i => i.HashString == latestBlockHash) //"000000000000000000575193009e04e9ca091510d63478b7bbaab4ab8382d629")
+                .Where(i => i.Hash == latestBlock.Hash)
                 .ToArray()
                 .SingleOrDefault();
             Console.WriteLine(inventoryData?.Hash);

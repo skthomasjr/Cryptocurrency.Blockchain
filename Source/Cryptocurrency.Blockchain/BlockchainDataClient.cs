@@ -29,7 +29,7 @@ namespace Cryptocurrency.Blockchain
         ///     Gets the inventory data.
         /// </summary>
         /// <value>The inventory data.</value>
-        [Route("/inv/{HashString}?format=json")]
+        [Route("/inv/{Hash}?format=json")]
         public Resource<InventoryData> InventoryData { get; private set; }
 
         /// <summary>
@@ -58,7 +58,8 @@ namespace Cryptocurrency.Blockchain
         /// </summary>
         /// <value>The unconfirmed transactions.</value>
         [Routes("/unconfirmed-transactions?format=json")]
-        public Resource<UnconfirmedTransactions> UnconfirmedTransactions { get; private set; }
+        [RootNode("txs")]
+        public Resource<Transaction> UnconfirmedTransactions { get; private set; }
 
         /// <summary>
         ///     Gets the resource representing unspent outputs.

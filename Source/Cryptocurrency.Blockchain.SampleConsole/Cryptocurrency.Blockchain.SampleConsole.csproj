@@ -39,8 +39,8 @@
       <HintPath>..\packages\NetClient.1.0.27\lib\net461\NetClient.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="NetClient.Rest, Version=1.0.71.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\NetClient.Rest.1.0.71\lib\net461\NetClient.Rest.dll</HintPath>
+    <Reference Include="NetClient.Rest, Version=1.0.73.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\NetClient.Rest.1.0.73\lib\net461\NetClient.Rest.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -72,7 +72,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
     <None Include="SampleData\rawaddr.1FW8KHjgtPTngKLHAw4YALtWoENsRpjt33.json" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
