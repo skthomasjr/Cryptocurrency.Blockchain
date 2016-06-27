@@ -17,7 +17,7 @@ Block Height | ✔
 Mined Blocks | ✔
 Inventory Data | ✔
 Latest Block | ✔
-Multiple Addresses | soon
+Multiple Addresses | ✔
 Single Address | ✔
 Single Block | ✔
 Single Transaction | ✔
