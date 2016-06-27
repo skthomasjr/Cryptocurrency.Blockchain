@@ -22,7 +22,7 @@ Single Address | ✔
 Single Block | ✔
 Single Transaction | ✔
 Unconfirmed Transactions | ✔
-Unspent Outputs | soon
+Unspent Outputs | ✔
 
 This API library allows interacting with the API service using LINQ query syntax or LINQ method syntax. Example of making an API call using LINQ query syntax:
 ```c#
