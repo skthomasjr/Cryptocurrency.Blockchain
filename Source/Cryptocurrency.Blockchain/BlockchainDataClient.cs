@@ -1,4 +1,5 @@
-﻿using NetClient.Rest;
+﻿using System.ComponentModel;
+using NetClient.Rest;
 
 namespace Cryptocurrency.Blockchain
 {
@@ -12,16 +13,15 @@ namespace Cryptocurrency.Blockchain
         ///     Gets the resource representing addresses.
         /// </summary>
         /// <value>The addresses.</value>
-        [Routes("/rawaddr/{Base58}", "/rawaddr/{Hash160}")]
-        [Parameters("limit={Limit}", "offset={Offset}")]
+        [Route("/rawaddr/{Base58}", "limit={Limit}", "offset={Offset}")]
+        [Route("/rawaddr/{Hash160}", "limit={Limit}", "offset={Offset}")]
         public Resource<Address> Addresses { get; private set; }
 
         /// <summary>
         ///     Gets the resource representing blocks at a given height.
         /// </summary>
         /// <value>The height of the blocks at.</value>
-        [Routes("/block-height/{Height}?format=json")]
-        [RootNode("blocks")]
+        [Route("/block-height/{Height}?format=json", node: "blocks")]
         public Resource<RawBlock> Blocks { get; private set; }
 
         /// <summary>
@@ -42,47 +42,46 @@ namespace Cryptocurrency.Blockchain
         ///     Gets the resource representing mined blocks.
         /// </summary>
         /// <value>The mined blocks.</value>
-        [Routes("/blocks/{DayInUnixTimeMilliseconds}?format=json")]
-        [Routes("/blocks/{MiningPool}?format=json")]
-        [RootNode("blocks")]
+        [Route("/blocks/{DayInUnixTimeMilliseconds}?format=json", node: "blocks")]
+        [Route("/blocks/{MiningPool}?format=json", node: "blocks")]
         public Resource<MinedBlock> MinedBlocks { get; private set; }
 
         /// <summary>
         ///     Gets the resource representing multiple addresses.
         /// </summary>
         /// <value>The multi addresses.</value>
-        [Routes("/multiaddr?active={Addresses}")]
-        [RootNode("addresses")]
+        [Route("/multiaddr?active={Addresses}", node: "addresses")]
         public Resource<AddressSummary> MultiAddresses { get; private set; }
 
         /// <summary>
         ///     Gets the resource representing raw blockchain blocks.
         /// </summary>
         /// <value>The raw blocks.</value>
-        [Routes("/rawblock/{Index}", "/rawblock/{Hash}")]
+        [Route("/rawblock/{Index}")]
+        [Route("/rawblock/{Hash}")]
         public Resource<RawBlock> RawBlocks { get; private set; }
 
         /// <summary>
         ///     Gets the resource representing blockchain transactions.
         /// </summary>
         /// <value>The transactions.</value>
-        [Routes("/rawtx/{Index}", "/rawtx/{Hash}")]
+        [Route("/rawtx/{Index}")]
+        [Route("/rawtx/{Hash}")]
         public Resource<Transaction> Transactions { get; private set; }
 
         /// <summary>
         ///     Gets the resource representing unconfirmed transactions.
         /// </summary>
         /// <value>The unconfirmed transactions.</value>
-        [Routes("/unconfirmed-transactions?format=json")]
-        [RootNode("txs")]
+        [Route("/unconfirmed-transactions?format=json", node: "txs")]
         public Resource<Transaction> UnconfirmedTransactions { get; private set; }
 
         /// <summary>
         ///     Gets the resource representing unspent outputs.
         /// </summary>
         /// <value>The unspent outputs.</value>
-        [Routes("/unspent?active={Address}", "/unspent?active={Addresses}")]
-        [RootNode("unspent_outputs")]
+        [Route("/unspent?active={Address}", node: "unspent_outputs")]
+        [Route("/unspent?active={Addresses}", node: "unspent_outputs")]
         public Resource<UnspentOutput> UnspentOutputs { get; private set; }
 
         //MultipleAddresses
