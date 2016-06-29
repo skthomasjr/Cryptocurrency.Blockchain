@@ -51,6 +51,7 @@ namespace Cryptocurrency.Blockchain
         ///     Gets the resource representing multiple addresses.
         /// </summary>
         /// <value>The multi addresses.</value>
+        [Route("/multiaddr?active={Address}", node: "addresses")]
         [Route("/multiaddr?active={Addresses}", node: "addresses")]
         public Resource<AddressSummary> MultiAddresses { get; private set; }
 
@@ -58,8 +59,8 @@ namespace Cryptocurrency.Blockchain
         ///     Gets the resource representing blockchain transactions.
         /// </summary>
         /// <value>The transactions.</value>
-        [Route("/rawtx/{Hash}")]
-        [Route("/rawtx/{Index}")]
+        [Route("/rawtx/{Hash}", "scripts={IncludeScripts}")]
+        [Route("/rawtx/{Index}", "scripts={IncludeScripts}")]
         [Route("/unconfirmed-transactions?format=json", node: "txs")]
         public Resource<Transaction> Transactions { get; private set; }
 
