@@ -10,7 +10,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Address.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IBlockchainDataClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UnspentOutputResource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TransactionResource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AddressSummaryResource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MinedBlockResource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LatestBlockResource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)InventoryDataResource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AddressResource.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)AddressSummary.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BlockResource.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MinedBlock.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BlockchainDataClient.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)InputTransaction.cs" />

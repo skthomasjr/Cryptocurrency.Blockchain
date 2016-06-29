@@ -63,7 +63,7 @@ namespace Cryptocurrency.Blockchain.SampleConsole
                 .ToArray();
             Console.WriteLine(JsonConvert.SerializeObject(minedBlock, Formatting.Indented));
 
-            var addresses = client.MultiAddresses
+            var addresses = client.MultipleAddresses
                 .Where(b => Configuration.Criteria == new
                 {
                     Addresses = "1EBHA1ckUWzNKN7BMfDwGTx6GKEbADUozX|1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa"
@@ -71,8 +71,6 @@ namespace Cryptocurrency.Blockchain.SampleConsole
                 .ToArray();
             Console.WriteLine(JsonConvert.SerializeObject(addresses, Formatting.Indented));
 
-            //Optional scripts boolean parameter to include the input and output scripts e.g. & scripts = true
-            //You can also request the transaction in binary form (Hex encoded) using ? format = hex
             var transaction = client.Transactions
                 .Where(t => t.Index == 57048523)
                 .ToArray()
