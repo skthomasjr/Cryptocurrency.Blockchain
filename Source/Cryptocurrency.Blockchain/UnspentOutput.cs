@@ -9,24 +9,6 @@ namespace Cryptocurrency.Blockchain
     /// </summary>
     public class UnspentOutput
     {
-        ///// <summary>
-        ///// Gets the addresses. Used as the resource criteria. Value is never set.
-        ///// </summary>
-        ///// <value>The addresses.</value>
-        //public IEnumerable<string> Addresses { get; }
-
-        /// <summary>
-        ///     Gets the address. Used as the resource criteria. Value is never set.
-        /// </summary>
-        /// <value>The address.</value>
-        public string Address { get; }
-
-        /// <summary>
-        ///     Gets the addresses. Used as the resource criteria. Value is never set.
-        /// </summary>
-        /// <value>The addresses.</value>
-        public string Addresses { get; }
-
         /// <summary>
         ///     Gets the confirmations.
         /// </summary>

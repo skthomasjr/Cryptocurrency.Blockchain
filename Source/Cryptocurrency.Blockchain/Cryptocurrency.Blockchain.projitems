@@ -18,13 +18,13 @@
     <Compile Include="$(MSBuildThisFileDirectory)LatestBlock.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)OutputTransaction.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Properties\AssemblyInfo.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)RawBlock.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Block.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Serialization\Converters\HexJsonConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Serialization\Converters\IpAddressJsonConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Serialization\Converters\SatoshiValueJsonConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Serialization\Converters\UnixTimeMillisecondsJsonConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Serialization\Converters\UnixTimeSecondsJsonConverter.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)RawBlockTransaction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BlockTransaction.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Transaction.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)UnspentOutput.cs" />
   </ItemGroup>

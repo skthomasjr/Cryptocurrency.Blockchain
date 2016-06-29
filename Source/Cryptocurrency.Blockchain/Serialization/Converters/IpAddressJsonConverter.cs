@@ -20,7 +20,7 @@ namespace Cryptocurrency.Blockchain.Serialization.Converters
         public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
         {
             var ipAddress = (IPAddress) value;
-            if (ipAddress != null) writer.WriteValue(ipAddress);
+            if (ipAddress != null) writer.WriteValue(ipAddress.ToString());
         }
     }
 }

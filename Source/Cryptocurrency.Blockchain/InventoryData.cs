@@ -27,12 +27,6 @@ namespace Cryptocurrency.Blockchain
         public Hex Hash { get; private set; }
 
         /// <summary>
-        ///     Gets the hash string. Used as the resource criteria. Value is never set.
-        /// </summary>
-        /// <value>The hash string.</value>
-        public string HashString { get; }
-
-        /// <summary>
         ///     Gets the initial IP address of the peer requesting inventory data.
         /// </summary>
         /// <value>The initial ip.</value>

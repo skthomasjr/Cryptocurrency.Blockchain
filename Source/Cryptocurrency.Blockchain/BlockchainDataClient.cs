@@ -1,5 +1,4 @@
-﻿using System.ComponentModel;
-using NetClient.Rest;
+﻿using NetClient.Rest;
 
 namespace Cryptocurrency.Blockchain
 {
@@ -18,11 +17,13 @@ namespace Cryptocurrency.Blockchain
         public Resource<Address> Addresses { get; private set; }
 
         /// <summary>
-        ///     Gets the resource representing blocks at a given height.
+        ///     Gets the resource representing blockchain blocks.
         /// </summary>
-        /// <value>The height of the blocks at.</value>
+        /// <value>The raw blocks.</value>
+        [Route("/rawblock/{Index}")]
+        [Route("/rawblock/{Hash}")]
         [Route("/block-height/{Height}?format=json", node: "blocks")]
-        public Resource<RawBlock> Blocks { get; private set; }
+        public Resource<Block> Blocks { get; private set; }
 
         /// <summary>
         ///     Gets the inventory data.
@@ -54,27 +55,13 @@ namespace Cryptocurrency.Blockchain
         public Resource<AddressSummary> MultiAddresses { get; private set; }
 
         /// <summary>
-        ///     Gets the resource representing raw blockchain blocks.
-        /// </summary>
-        /// <value>The raw blocks.</value>
-        [Route("/rawblock/{Index}")]
-        [Route("/rawblock/{Hash}")]
-        public Resource<RawBlock> RawBlocks { get; private set; }
-
-        /// <summary>
         ///     Gets the resource representing blockchain transactions.
         /// </summary>
         /// <value>The transactions.</value>
-        [Route("/rawtx/{Index}")]
         [Route("/rawtx/{Hash}")]
-        public Resource<Transaction> Transactions { get; private set; }
-
-        /// <summary>
-        ///     Gets the resource representing unconfirmed transactions.
-        /// </summary>
-        /// <value>The unconfirmed transactions.</value>
+        [Route("/rawtx/{Index}")]
         [Route("/unconfirmed-transactions?format=json", node: "txs")]
-        public Resource<Transaction> UnconfirmedTransactions { get; private set; }
+        public Resource<Transaction> Transactions { get; private set; }
 
         /// <summary>
         ///     Gets the resource representing unspent outputs.
@@ -83,7 +70,5 @@ namespace Cryptocurrency.Blockchain
         [Route("/unspent?active={Address}", node: "unspent_outputs")]
         [Route("/unspent?active={Addresses}", node: "unspent_outputs")]
         public Resource<UnspentOutput> UnspentOutputs { get; private set; }
-
-        //MultipleAddresses
     }
 }

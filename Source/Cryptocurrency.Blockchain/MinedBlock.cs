@@ -11,12 +11,6 @@ namespace Cryptocurrency.Blockchain
     public class MinedBlock
     {
         /// <summary>
-        ///     Gets the day in unix time milliseconds. Used as the resource criteria. Value is never set.
-        /// </summary>
-        /// <value>The day in unix time milliseconds.</value>
-        public long DayInUnixTimeMilliseconds { get; }
-
-        /// <summary>
         ///     Gets the hash.
         /// </summary>
         /// <value>The hash.</value>
@@ -37,12 +31,6 @@ namespace Cryptocurrency.Blockchain
         /// <value><c>true</c> if this instance is main chain; otherwise, <c>false</c>.</value>
         [JsonProperty("main_chain")]
         public bool IsMainChain { get; private set; }
-
-        /// <summary>
-        ///     Gets the mining pool. Used as the resource criteria. Value is never set.
-        /// </summary>
-        /// <value>The mining pool.</value>
-        public string MiningPool { get; }
 
         /// <summary>
         ///     Gets the block time set by the miner.

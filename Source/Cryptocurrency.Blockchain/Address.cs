@@ -34,18 +34,6 @@ namespace Cryptocurrency.Blockchain
         public Hex Hash160 { get; private set; }
 
         /// <summary>
-        ///     Gets the limit. Used as the resource criteria. Value is never set.
-        /// </summary>
-        /// <value>The limit.</value>
-        public int Limit { get; }
-
-        /// <summary>
-        ///     Gets the offset. Used as the resource criteria. Value is never set.
-        /// </summary>
-        /// <value>The offset.</value>
-        public int Offset { get; }
-
-        /// <summary>
         ///     Gets the total amount received.
         /// </summary>
         /// <value>The received.</value>

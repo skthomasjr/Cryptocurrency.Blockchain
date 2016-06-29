@@ -10,7 +10,7 @@ namespace Cryptocurrency.Blockchain
     /// <summary>
     ///     Represents a blockchain transaction.
     /// </summary>
-    public class RawBlockTransaction
+    public class BlockTransaction
     {
         /// <summary>
         ///     Gets the block height. Null for unconfirmed transactions.

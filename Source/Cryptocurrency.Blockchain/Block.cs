@@ -8,9 +8,9 @@ using Types.Hexadecimal;
 namespace Cryptocurrency.Blockchain
 {
     /// <summary>
-    ///     Represents a raw blockchain block.
+    ///     Represents a blockchain block.
     /// </summary>
-    public class RawBlock
+    public class Block
     {
         /// <summary>
         ///     Gets the difficulty target.
@@ -114,7 +114,7 @@ namespace Cryptocurrency.Blockchain
         /// </summary>
         /// <value>The transactions.</value>
         [JsonProperty("tx", Required = Required.Always)]
-        public IEnumerable<RawBlockTransaction> Transactions { get; private set; }
+        public IEnumerable<BlockTransaction> Transactions { get; private set; }
 
         /// <summary>
         ///     Gets the version as specified by the protocol.
