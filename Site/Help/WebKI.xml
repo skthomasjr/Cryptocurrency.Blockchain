@@ -1,0 +1,661 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Address class">
+    <HelpKINode Title="Address Class" Url="html/1118029632.htm" />
+    <HelpKINode Title="Address Members" Url="html/20091409.htm" />
+    <HelpKINode Title="about Address class" Url="html/1118029632.htm" />
+    <HelpKINode Title="all members" Url="html/20091409.htm" />
+    <HelpKINode Title="methods" Url="html/1998041453.htm" />
+    <HelpKINode Title="properties" Url="html/1955215047.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Address property" Url="html/1665634113.htm" />
+  <HelpKINode Title="Address.Balance property" Url="html/1850094700.htm" />
+  <HelpKINode Title="Address.Base58 property" Url="html/1854089896.htm" />
+  <HelpKINode Title="Address.Hash160 property" Url="html/1713944983.htm" />
+  <HelpKINode Title="Address.Received property" Url="html/1011764060.htm" />
+  <HelpKINode Title="Address.Sent property" Url="html/1790820094.htm" />
+  <HelpKINode Title="Address.TransactionCount property" Url="html/1713093473.htm" />
+  <HelpKINode Title="Address.Transactions property" Url="html/59675854.htm" />
+  <HelpKINode Title="Addresses property">
+    <HelpKINode Title="Addresses Property " Url="html/545821540.htm" />
+    <HelpKINode Title="Addresses Property " Url="html/622283370.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddressResource class">
+    <HelpKINode Title="AddressResource Class" Url="html/287043899.htm" />
+    <HelpKINode Title="AddressResource Members" Url="html/1674419962.htm" />
+    <HelpKINode Title="about AddressResource class" Url="html/287043899.htm" />
+    <HelpKINode Title="all members" Url="html/1674419962.htm" />
+    <HelpKINode Title="methods" Url="html/1052587990.htm" />
+    <HelpKINode Title="properties" Url="html/1281109885.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddressSummary class">
+    <HelpKINode Title="AddressSummary Class" Url="html/1569538282.htm" />
+    <HelpKINode Title="AddressSummary Members" Url="html/51920779.htm" />
+    <HelpKINode Title="about AddressSummary class" Url="html/1569538282.htm" />
+    <HelpKINode Title="all members" Url="html/51920779.htm" />
+    <HelpKINode Title="methods" Url="html/1179046166.htm" />
+    <HelpKINode Title="properties" Url="html/1576620788.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddressSummary.Balance property" Url="html/21130386.htm" />
+  <HelpKINode Title="AddressSummary.Base58 property" Url="html/883736779.htm" />
+  <HelpKINode Title="AddressSummary.Received property" Url="html/247792370.htm" />
+  <HelpKINode Title="AddressSummary.Sent property" Url="html/1964155838.htm" />
+  <HelpKINode Title="AddressSummary.TransactionCount property" Url="html/460394509.htm" />
+  <HelpKINode Title="AddressSummaryResource class">
+    <HelpKINode Title="AddressSummaryResource Class" Url="html/1258137519.htm" />
+    <HelpKINode Title="AddressSummaryResource Members" Url="html/366212298.htm" />
+    <HelpKINode Title="about AddressSummaryResource class" Url="html/1258137519.htm" />
+    <HelpKINode Title="all members" Url="html/366212298.htm" />
+    <HelpKINode Title="methods" Url="html/1790476566.htm" />
+    <HelpKINode Title="properties" Url="html/1904719071.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Balance property">
+    <HelpKINode Title="Balance Property " Url="html/1850094700.htm" />
+    <HelpKINode Title="Balance Property " Url="html/21130386.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Base58 property">
+    <HelpKINode Title="Base58 Property " Url="html/1854089896.htm" />
+    <HelpKINode Title="Base58 Property " Url="html/883736779.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Bits property" Url="html/422437207.htm" />
+  <HelpKINode Title="Block class">
+    <HelpKINode Title="Block Class" Url="html/2034944723.htm" />
+    <HelpKINode Title="Block Members" Url="html/191095044.htm" />
+    <HelpKINode Title="about Block class" Url="html/2034944723.htm" />
+    <HelpKINode Title="all members" Url="html/191095044.htm" />
+    <HelpKINode Title="methods" Url="html/439292614.htm" />
+    <HelpKINode Title="properties" Url="html/371262430.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Block.Bits property" Url="html/422437207.htm" />
+  <HelpKINode Title="Block.Fee property" Url="html/454865874.htm" />
+  <HelpKINode Title="Block.Hash property" Url="html/1914200842.htm" />
+  <HelpKINode Title="Block.Height property" Url="html/151346043.htm" />
+  <HelpKINode Title="Block.Index property" Url="html/1556036627.htm" />
+  <HelpKINode Title="Block.IsMainChain property" Url="html/1818767569.htm" />
+  <HelpKINode Title="Block.MerkleRoot property" Url="html/786557197.htm" />
+  <HelpKINode Title="Block.Nonce property" Url="html/487006187.htm" />
+  <HelpKINode Title="Block.PreviousBlock property" Url="html/1041095263.htm" />
+  <HelpKINode Title="Block.RelayedBy property" Url="html/1307890883.htm" />
+  <HelpKINode Title="Block.Size property" Url="html/1595427214.htm" />
+  <HelpKINode Title="Block.Time property" Url="html/1998711724.htm" />
+  <HelpKINode Title="Block.TransactionCount property" Url="html/1078267244.htm" />
+  <HelpKINode Title="Block.Transactions property" Url="html/1516149376.htm" />
+  <HelpKINode Title="Block.Version property" Url="html/529705575.htm" />
+  <HelpKINode Title="BlockchainDataClient class">
+    <HelpKINode Title="BlockchainDataClient Class" Url="html/650844270.htm" />
+    <HelpKINode Title="BlockchainDataClient Members" Url="html/1364105316.htm" />
+    <HelpKINode Title="about BlockchainDataClient class" Url="html/650844270.htm" />
+    <HelpKINode Title="all members" Url="html/1364105316.htm" />
+    <HelpKINode Title="methods" Url="html/494325163.htm" />
+    <HelpKINode Title="properties" Url="html/1811563568.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BlockchainDataClient.Addresses property" Url="html/545821540.htm" />
+  <HelpKINode Title="BlockchainDataClient.Blocks property" Url="html/1536316927.htm" />
+  <HelpKINode Title="BlockchainDataClient.InventoryData property" Url="html/1927637516.htm" />
+  <HelpKINode Title="BlockchainDataClient.LatestBlocks property" Url="html/657478932.htm" />
+  <HelpKINode Title="BlockchainDataClient.MinedBlocks property" Url="html/1650033391.htm" />
+  <HelpKINode Title="BlockchainDataClient.MultipleAddresses property" Url="html/15973804.htm" />
+  <HelpKINode Title="BlockchainDataClient.Transactions property" Url="html/1068680449.htm" />
+  <HelpKINode Title="BlockchainDataClient.UnspentOutputs property" Url="html/286362837.htm" />
+  <HelpKINode Title="BlockHeight property">
+    <HelpKINode Title="BlockHeight Property " Url="html/570148679.htm" />
+    <HelpKINode Title="BlockHeight Property " Url="html/10353410.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BlockResource class">
+    <HelpKINode Title="BlockResource Class" Url="html/1919384163.htm" />
+    <HelpKINode Title="BlockResource Members" Url="html/2139485796.htm" />
+    <HelpKINode Title="about BlockResource class" Url="html/1919384163.htm" />
+    <HelpKINode Title="all members" Url="html/2139485796.htm" />
+    <HelpKINode Title="methods" Url="html/953322953.htm" />
+    <HelpKINode Title="properties" Url="html/1833545800.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Blocks property">
+    <HelpKINode Title="Blocks Property " Url="html/940986912.htm" />
+    <HelpKINode Title="Blocks Property " Url="html/1536316927.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BlockTransaction class">
+    <HelpKINode Title="BlockTransaction Class" Url="html/633697327.htm" />
+    <HelpKINode Title="BlockTransaction Members" Url="html/2100728884.htm" />
+    <HelpKINode Title="about BlockTransaction class" Url="html/633697327.htm" />
+    <HelpKINode Title="all members" Url="html/2100728884.htm" />
+    <HelpKINode Title="methods" Url="html/360682748.htm" />
+    <HelpKINode Title="properties" Url="html/1779355519.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BlockTransaction.BlockHeight property" Url="html/570148679.htm" />
+  <HelpKINode Title="BlockTransaction.Hash property" Url="html/399346719.htm" />
+  <HelpKINode Title="BlockTransaction.Index property" Url="html/1086044891.htm" />
+  <HelpKINode Title="BlockTransaction.Inputs property" Url="html/2057113669.htm" />
+  <HelpKINode Title="BlockTransaction.IsDoubleSpent property" Url="html/1358427819.htm" />
+  <HelpKINode Title="BlockTransaction.Outputs property" Url="html/828603854.htm" />
+  <HelpKINode Title="BlockTransaction.RelayedBy property" Url="html/729421952.htm" />
+  <HelpKINode Title="BlockTransaction.Size property" Url="html/420341588.htm" />
+  <HelpKINode Title="BlockTransaction.Time property" Url="html/71821140.htm" />
+  <HelpKINode Title="BlockTransaction.Version property" Url="html/267236748.htm" />
+  <HelpKINode Title="CanConvert method">
+    <HelpKINode Title="CanConvert Method " Url="html/1550326437.htm" />
+    <HelpKINode Title="CanConvert Method " Url="html/40592649.htm" />
+    <HelpKINode Title="CanConvert Method " Url="html/724071717.htm" />
+    <HelpKINode Title="CanConvert Method " Url="html/2042206683.htm" />
+    <HelpKINode Title="CanConvert Method " Url="html/1000302535.htm" />
+    <HelpKINode Title="CanConvert Method " Url="html/1124509217.htm" />
+    <HelpKINode Title="CanConvert Method " Url="html/683663261.htm" />
+    <HelpKINode Title="CanConvert Method " Url="html/383476608.htm" />
+    <HelpKINode Title="CanConvert Method " Url="html/1183603796.htm" />
+    <HelpKINode Title="CanConvert Method " Url="html/986190217.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Confirmations property" Url="html/2113816050.htm" />
+  <HelpKINode Title="ConnectedNodeCount property" Url="html/1597159663.htm" />
+  <HelpKINode Title="Cryptocurrency.Blockchain namespace" Url="html/214259925.htm" />
+  <HelpKINode Title="Cryptocurrency.Blockchain.Address class">
+    <HelpKINode Title="Address Class" Url="html/1118029632.htm" />
+    <HelpKINode Title="Address Members" Url="html/20091409.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cryptocurrency.Blockchain.AddressResource class">
+    <HelpKINode Title="AddressResource Class" Url="html/287043899.htm" />
+    <HelpKINode Title="AddressResource Members" Url="html/1674419962.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cryptocurrency.Blockchain.AddressSummary class">
+    <HelpKINode Title="AddressSummary Class" Url="html/1569538282.htm" />
+    <HelpKINode Title="AddressSummary Members" Url="html/51920779.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cryptocurrency.Blockchain.AddressSummaryResource class">
+    <HelpKINode Title="AddressSummaryResource Class" Url="html/1258137519.htm" />
+    <HelpKINode Title="AddressSummaryResource Members" Url="html/366212298.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cryptocurrency.Blockchain.Block class">
+    <HelpKINode Title="Block Class" Url="html/2034944723.htm" />
+    <HelpKINode Title="Block Members" Url="html/191095044.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cryptocurrency.Blockchain.BlockchainDataClient class">
+    <HelpKINode Title="BlockchainDataClient Class" Url="html/650844270.htm" />
+    <HelpKINode Title="BlockchainDataClient Members" Url="html/1364105316.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cryptocurrency.Blockchain.BlockResource class">
+    <HelpKINode Title="BlockResource Class" Url="html/1919384163.htm" />
+    <HelpKINode Title="BlockResource Members" Url="html/2139485796.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cryptocurrency.Blockchain.BlockTransaction class">
+    <HelpKINode Title="BlockTransaction Class" Url="html/633697327.htm" />
+    <HelpKINode Title="BlockTransaction Members" Url="html/2100728884.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cryptocurrency.Blockchain.IBlockchainDataClient interface">
+    <HelpKINode Title="IBlockchainDataClient Interface" Url="html/2102701081.htm" />
+    <HelpKINode Title="IBlockchainDataClient Members" Url="html/716853746.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cryptocurrency.Blockchain.InputTransaction class">
+    <HelpKINode Title="InputTransaction Class" Url="html/822364925.htm" />
+    <HelpKINode Title="InputTransaction Members" Url="html/1116792950.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cryptocurrency.Blockchain.InventoryData class">
+    <HelpKINode Title="InventoryData Class" Url="html/772870589.htm" />
+    <HelpKINode Title="InventoryData Members" Url="html/1530564768.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cryptocurrency.Blockchain.InventoryDataResource class">
+    <HelpKINode Title="InventoryDataResource Class" Url="html/40558326.htm" />
+    <HelpKINode Title="InventoryDataResource Members" Url="html/304041379.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cryptocurrency.Blockchain.LatestBlock class">
+    <HelpKINode Title="LatestBlock Class" Url="html/80318801.htm" />
+    <HelpKINode Title="LatestBlock Members" Url="html/1708710727.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cryptocurrency.Blockchain.LatestBlockResource class">
+    <HelpKINode Title="LatestBlockResource Class" Url="html/973869423.htm" />
+    <HelpKINode Title="LatestBlockResource Members" Url="html/1115765245.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cryptocurrency.Blockchain.MinedBlock class">
+    <HelpKINode Title="MinedBlock Class" Url="html/702679239.htm" />
+    <HelpKINode Title="MinedBlock Members" Url="html/406986042.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cryptocurrency.Blockchain.MinedBlockResource class">
+    <HelpKINode Title="MinedBlockResource Class" Url="html/149408660.htm" />
+    <HelpKINode Title="MinedBlockResource Members" Url="html/339850025.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cryptocurrency.Blockchain.OutputTransaction class">
+    <HelpKINode Title="OutputTransaction Class" Url="html/681917104.htm" />
+    <HelpKINode Title="OutputTransaction Members" Url="html/2068538800.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cryptocurrency.Blockchain.Serialization.Converters namespace" Url="html/1185030845.htm" />
+  <HelpKINode Title="Cryptocurrency.Blockchain.Serialization.Converters.HexJsonConverter class">
+    <HelpKINode Title="HexJsonConverter Class" Url="html/481203847.htm" />
+    <HelpKINode Title="HexJsonConverter Members" Url="html/1819014340.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cryptocurrency.Blockchain.Serialization.Converters.IpAddressConverter class">
+    <HelpKINode Title="IpAddressConverter Class" Url="html/555737281.htm" />
+    <HelpKINode Title="IpAddressConverter Members" Url="html/1710017624.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cryptocurrency.Blockchain.Serialization.Converters.SatoshiValueJsonConverter class">
+    <HelpKINode Title="SatoshiValueJsonConverter Class" Url="html/1105773411.htm" />
+    <HelpKINode Title="SatoshiValueJsonConverter Members" Url="html/1225682343.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cryptocurrency.Blockchain.Serialization.Converters.UnixTimeMillisecondsJsonConverter class">
+    <HelpKINode Title="UnixTimeMillisecondsJsonConverter Class" Url="html/401476608.htm" />
+    <HelpKINode Title="UnixTimeMillisecondsJsonConverter Members" Url="html/2020745684.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cryptocurrency.Blockchain.Serialization.Converters.UnixTimeSecondsJsonConverter class">
+    <HelpKINode Title="UnixTimeSecondsJsonConverter Class" Url="html/1182482908.htm" />
+    <HelpKINode Title="UnixTimeSecondsJsonConverter Members" Url="html/220147891.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cryptocurrency.Blockchain.Transaction class">
+    <HelpKINode Title="Transaction Class" Url="html/347244361.htm" />
+    <HelpKINode Title="Transaction Members" Url="html/517022982.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cryptocurrency.Blockchain.TransactionResource class">
+    <HelpKINode Title="TransactionResource Class" Url="html/1425843527.htm" />
+    <HelpKINode Title="TransactionResource Members" Url="html/1963190837.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cryptocurrency.Blockchain.UnspentOutput class">
+    <HelpKINode Title="UnspentOutput Class" Url="html/477494912.htm" />
+    <HelpKINode Title="UnspentOutput Members" Url="html/1788241376.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cryptocurrency.Blockchain.UnspentOutputResource class">
+    <HelpKINode Title="UnspentOutputResource Class" Url="html/658712170.htm" />
+    <HelpKINode Title="UnspentOutputResource Members" Url="html/714123567.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Fee property" Url="html/454865874.htm" />
+  <HelpKINode Title="Hash property">
+    <HelpKINode Title="Hash Property " Url="html/2096691627.htm" />
+    <HelpKINode Title="Hash Property " Url="html/1914200842.htm" />
+    <HelpKINode Title="Hash Property " Url="html/869204290.htm" />
+    <HelpKINode Title="Hash Property " Url="html/1151638838.htm" />
+    <HelpKINode Title="Hash Property " Url="html/977011043.htm" />
+    <HelpKINode Title="Hash Property " Url="html/399346719.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Hash160 property" Url="html/1713944983.htm" />
+  <HelpKINode Title="Height property">
+    <HelpKINode Title="Height Property " Url="html/334080638.htm" />
+    <HelpKINode Title="Height Property " Url="html/151346043.htm" />
+    <HelpKINode Title="Height Property " Url="html/26019807.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HexJsonConverter class">
+    <HelpKINode Title="HexJsonConverter Class" Url="html/481203847.htm" />
+    <HelpKINode Title="HexJsonConverter Members" Url="html/1819014340.htm" />
+    <HelpKINode Title="about HexJsonConverter class" Url="html/481203847.htm" />
+    <HelpKINode Title="all members" Url="html/1819014340.htm" />
+    <HelpKINode Title="methods" Url="html/534708765.htm" />
+    <HelpKINode Title="properties" Url="html/1677676786.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HexJsonConverter.CanConvert method">
+    <HelpKINode Title="CanConvert Method " Url="html/383476608.htm" />
+    <HelpKINode Title="CanConvert Method " Url="html/986190217.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HexJsonConverter.ReadJson method">
+    <HelpKINode Title="ReadJson Method " Url="html/1758342664.htm" />
+    <HelpKINode Title="ReadJson Method " Url="html/1669542139.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HexJsonConverter.WriteJson method">
+    <HelpKINode Title="WriteJson Method " Url="html/1099826347.htm" />
+    <HelpKINode Title="WriteJson Method " Url="html/1529791099.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IBlockchainDataClient interface">
+    <HelpKINode Title="IBlockchainDataClient Interface" Url="html/2102701081.htm" />
+    <HelpKINode Title="IBlockchainDataClient Members" Url="html/716853746.htm" />
+    <HelpKINode Title="about IBlockchainDataClient interface" Url="html/2102701081.htm" />
+    <HelpKINode Title="all members" Url="html/716853746.htm" />
+    <HelpKINode Title="methods" Url="html/1660098792.htm" />
+    <HelpKINode Title="properties" Url="html/335088087.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IBlockchainDataClient.Addresses property" Url="html/622283370.htm" />
+  <HelpKINode Title="IBlockchainDataClient.Blocks property" Url="html/940986912.htm" />
+  <HelpKINode Title="IBlockchainDataClient.InventoryData property" Url="html/176868677.htm" />
+  <HelpKINode Title="IBlockchainDataClient.LatestBlocks property" Url="html/2032209903.htm" />
+  <HelpKINode Title="IBlockchainDataClient.MinedBlocks property" Url="html/2009608951.htm" />
+  <HelpKINode Title="IBlockchainDataClient.MultipleAddresses property" Url="html/21543847.htm" />
+  <HelpKINode Title="IBlockchainDataClient.Transactions property" Url="html/1473796418.htm" />
+  <HelpKINode Title="IBlockchainDataClient.UnspentOutputs property" Url="html/2069051286.htm" />
+  <HelpKINode Title="Index property">
+    <HelpKINode Title="Index Property " Url="html/1181095366.htm" />
+    <HelpKINode Title="Index Property " Url="html/1874846942.htm" />
+    <HelpKINode Title="Index Property " Url="html/1151877458.htm" />
+    <HelpKINode Title="Index Property " Url="html/1086044891.htm" />
+    <HelpKINode Title="Index Property " Url="html/1556036627.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InitialIp property" Url="html/105446057.htm" />
+  <HelpKINode Title="InitialTime property" Url="html/485728576.htm" />
+  <HelpKINode Title="Inputs property">
+    <HelpKINode Title="Inputs Property " Url="html/623640338.htm" />
+    <HelpKINode Title="Inputs Property " Url="html/2057113669.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InputTransaction class">
+    <HelpKINode Title="InputTransaction Class" Url="html/822364925.htm" />
+    <HelpKINode Title="InputTransaction Members" Url="html/1116792950.htm" />
+    <HelpKINode Title="about InputTransaction class" Url="html/822364925.htm" />
+    <HelpKINode Title="all members" Url="html/1116792950.htm" />
+    <HelpKINode Title="methods" Url="html/696156486.htm" />
+    <HelpKINode Title="properties" Url="html/734262705.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InputTransaction.PreviousOutput property" Url="html/790092147.htm" />
+  <HelpKINode Title="InputTransaction.Script property" Url="html/21903225.htm" />
+  <HelpKINode Title="InputTransaction.Sequence property" Url="html/108516080.htm" />
+  <HelpKINode Title="InventoryData class">
+    <HelpKINode Title="InventoryData Class" Url="html/772870589.htm" />
+    <HelpKINode Title="InventoryData Members" Url="html/1530564768.htm" />
+    <HelpKINode Title="about InventoryData class" Url="html/772870589.htm" />
+    <HelpKINode Title="all members" Url="html/1530564768.htm" />
+    <HelpKINode Title="methods" Url="html/885571731.htm" />
+    <HelpKINode Title="properties" Url="html/1083004070.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InventoryData property">
+    <HelpKINode Title="InventoryData Property " Url="html/176868677.htm" />
+    <HelpKINode Title="InventoryData Property " Url="html/1927637516.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InventoryData.ConnectedNodeCount property" Url="html/1597159663.htm" />
+  <HelpKINode Title="InventoryData.Hash property" Url="html/1151638838.htm" />
+  <HelpKINode Title="InventoryData.InitialIp property" Url="html/105446057.htm" />
+  <HelpKINode Title="InventoryData.InitialTime property" Url="html/485728576.htm" />
+  <HelpKINode Title="InventoryData.LastTime property" Url="html/1151336941.htm" />
+  <HelpKINode Title="InventoryData.RelayedCount property" Url="html/772179153.htm" />
+  <HelpKINode Title="InventoryData.RelayedPercent property" Url="html/266912311.htm" />
+  <HelpKINode Title="InventoryData.Type property" Url="html/1634813611.htm" />
+  <HelpKINode Title="InventoryDataResource class">
+    <HelpKINode Title="InventoryDataResource Class" Url="html/40558326.htm" />
+    <HelpKINode Title="InventoryDataResource Members" Url="html/304041379.htm" />
+    <HelpKINode Title="about InventoryDataResource class" Url="html/40558326.htm" />
+    <HelpKINode Title="all members" Url="html/304041379.htm" />
+    <HelpKINode Title="methods" Url="html/1705334479.htm" />
+    <HelpKINode Title="properties" Url="html/523474268.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IpAddressConverter class">
+    <HelpKINode Title="IpAddressConverter Class" Url="html/555737281.htm" />
+    <HelpKINode Title="IpAddressConverter Members" Url="html/1710017624.htm" />
+    <HelpKINode Title="about IpAddressConverter class" Url="html/555737281.htm" />
+    <HelpKINode Title="all members" Url="html/1710017624.htm" />
+    <HelpKINode Title="methods" Url="html/241189112.htm" />
+    <HelpKINode Title="properties" Url="html/1393543.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IpAddressConverter.CanConvert method">
+    <HelpKINode Title="CanConvert Method " Url="html/1000302535.htm" />
+    <HelpKINode Title="CanConvert Method " Url="html/1550326437.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IpAddressConverter.ReadJson method">
+    <HelpKINode Title="ReadJson Method " Url="html/1238948744.htm" />
+    <HelpKINode Title="ReadJson Method " Url="html/915925918.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IpAddressConverter.WriteJson method">
+    <HelpKINode Title="WriteJson Method " Url="html/1443761150.htm" />
+    <HelpKINode Title="WriteJson Method " Url="html/1603581563.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsDoubleSpent property">
+    <HelpKINode Title="IsDoubleSpent Property " Url="html/1498656767.htm" />
+    <HelpKINode Title="IsDoubleSpent Property " Url="html/471243914.htm" />
+    <HelpKINode Title="IsDoubleSpent Property " Url="html/1358427819.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsMainChain property">
+    <HelpKINode Title="IsMainChain Property " Url="html/736121898.htm" />
+    <HelpKINode Title="IsMainChain Property " Url="html/1818767569.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsSpent property" Url="html/1160783885.htm" />
+  <HelpKINode Title="LastTime property" Url="html/1151336941.htm" />
+  <HelpKINode Title="LatestBlock class">
+    <HelpKINode Title="LatestBlock Class" Url="html/80318801.htm" />
+    <HelpKINode Title="LatestBlock Members" Url="html/1708710727.htm" />
+    <HelpKINode Title="about LatestBlock class" Url="html/80318801.htm" />
+    <HelpKINode Title="all members" Url="html/1708710727.htm" />
+    <HelpKINode Title="methods" Url="html/2050221685.htm" />
+    <HelpKINode Title="properties" Url="html/2060584478.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LatestBlock.Hash property" Url="html/977011043.htm" />
+  <HelpKINode Title="LatestBlock.Height property" Url="html/334080638.htm" />
+  <HelpKINode Title="LatestBlock.Index property" Url="html/1151877458.htm" />
+  <HelpKINode Title="LatestBlock.IsDoubleSpent property" Url="html/1498656767.htm" />
+  <HelpKINode Title="LatestBlock.Time property" Url="html/665493031.htm" />
+  <HelpKINode Title="LatestBlock.TransactionIndexes property" Url="html/992553200.htm" />
+  <HelpKINode Title="LatestBlockResource class">
+    <HelpKINode Title="LatestBlockResource Class" Url="html/973869423.htm" />
+    <HelpKINode Title="LatestBlockResource Members" Url="html/1115765245.htm" />
+    <HelpKINode Title="about LatestBlockResource class" Url="html/973869423.htm" />
+    <HelpKINode Title="all members" Url="html/1115765245.htm" />
+    <HelpKINode Title="methods" Url="html/1157825988.htm" />
+    <HelpKINode Title="properties" Url="html/1309519023.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LatestBlocks property">
+    <HelpKINode Title="LatestBlocks Property " Url="html/2032209903.htm" />
+    <HelpKINode Title="LatestBlocks Property " Url="html/657478932.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MerkleRoot property" Url="html/786557197.htm" />
+  <HelpKINode Title="MinedBlock class">
+    <HelpKINode Title="MinedBlock Class" Url="html/702679239.htm" />
+    <HelpKINode Title="MinedBlock Members" Url="html/406986042.htm" />
+    <HelpKINode Title="about MinedBlock class" Url="html/702679239.htm" />
+    <HelpKINode Title="all members" Url="html/406986042.htm" />
+    <HelpKINode Title="methods" Url="html/2125933929.htm" />
+    <HelpKINode Title="properties" Url="html/1411827863.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MinedBlock.Hash property" Url="html/2096691627.htm" />
+  <HelpKINode Title="MinedBlock.Height property" Url="html/26019807.htm" />
+  <HelpKINode Title="MinedBlock.IsMainChain property" Url="html/736121898.htm" />
+  <HelpKINode Title="MinedBlock.Time property" Url="html/1352027476.htm" />
+  <HelpKINode Title="MinedBlockResource class">
+    <HelpKINode Title="MinedBlockResource Class" Url="html/149408660.htm" />
+    <HelpKINode Title="MinedBlockResource Members" Url="html/339850025.htm" />
+    <HelpKINode Title="about MinedBlockResource class" Url="html/149408660.htm" />
+    <HelpKINode Title="all members" Url="html/339850025.htm" />
+    <HelpKINode Title="methods" Url="html/1307877411.htm" />
+    <HelpKINode Title="properties" Url="html/1372431993.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MinedBlocks property">
+    <HelpKINode Title="MinedBlocks Property " Url="html/2009608951.htm" />
+    <HelpKINode Title="MinedBlocks Property " Url="html/1650033391.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MultipleAddresses property">
+    <HelpKINode Title="MultipleAddresses Property " Url="html/15973804.htm" />
+    <HelpKINode Title="MultipleAddresses Property " Url="html/21543847.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Nonce property" Url="html/487006187.htm" />
+  <HelpKINode Title="Outputs property">
+    <HelpKINode Title="Outputs Property " Url="html/1866827506.htm" />
+    <HelpKINode Title="Outputs Property " Url="html/828603854.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OutputTransaction class">
+    <HelpKINode Title="OutputTransaction Class" Url="html/681917104.htm" />
+    <HelpKINode Title="OutputTransaction Members" Url="html/2068538800.htm" />
+    <HelpKINode Title="about OutputTransaction class" Url="html/681917104.htm" />
+    <HelpKINode Title="all members" Url="html/2068538800.htm" />
+    <HelpKINode Title="methods" Url="html/1981709367.htm" />
+    <HelpKINode Title="properties" Url="html/1402694545.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OutputTransaction.Address property" Url="html/1665634113.htm" />
+  <HelpKINode Title="OutputTransaction.Index property" Url="html/1181095366.htm" />
+  <HelpKINode Title="OutputTransaction.IsSpent property" Url="html/1160783885.htm" />
+  <HelpKINode Title="OutputTransaction.Script property" Url="html/137015526.htm" />
+  <HelpKINode Title="OutputTransaction.TransactionIndex property" Url="html/1992102735.htm" />
+  <HelpKINode Title="OutputTransaction.Value property" Url="html/726508030.htm" />
+  <HelpKINode Title="PreviousBlock property" Url="html/1041095263.htm" />
+  <HelpKINode Title="PreviousOutput property" Url="html/790092147.htm" />
+  <HelpKINode Title="ReadJson method">
+    <HelpKINode Title="ReadJson Method " Url="html/283451409.htm" />
+    <HelpKINode Title="ReadJson Method " Url="html/1669542139.htm" />
+    <HelpKINode Title="ReadJson Method " Url="html/427901763.htm" />
+    <HelpKINode Title="ReadJson Method " Url="html/1810346868.htm" />
+    <HelpKINode Title="ReadJson Method " Url="html/915925918.htm" />
+    <HelpKINode Title="ReadJson Method " Url="html/528389333.htm" />
+    <HelpKINode Title="ReadJson Method " Url="html/1758342664.htm" />
+    <HelpKINode Title="ReadJson Method " Url="html/14452287.htm" />
+    <HelpKINode Title="ReadJson Method " Url="html/1238948744.htm" />
+    <HelpKINode Title="ReadJson Method " Url="html/1799117862.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Received property">
+    <HelpKINode Title="Received Property " Url="html/1011764060.htm" />
+    <HelpKINode Title="Received Property " Url="html/247792370.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RelayedBy property">
+    <HelpKINode Title="RelayedBy Property " Url="html/2102977229.htm" />
+    <HelpKINode Title="RelayedBy Property " Url="html/729421952.htm" />
+    <HelpKINode Title="RelayedBy Property " Url="html/1307890883.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RelayedCount property" Url="html/772179153.htm" />
+  <HelpKINode Title="RelayedPercent property" Url="html/266912311.htm" />
+  <HelpKINode Title="SatoshiValueJsonConverter class">
+    <HelpKINode Title="SatoshiValueJsonConverter Class" Url="html/1105773411.htm" />
+    <HelpKINode Title="SatoshiValueJsonConverter Members" Url="html/1225682343.htm" />
+    <HelpKINode Title="about SatoshiValueJsonConverter class" Url="html/1105773411.htm" />
+    <HelpKINode Title="all members" Url="html/1225682343.htm" />
+    <HelpKINode Title="methods" Url="html/1307678660.htm" />
+    <HelpKINode Title="properties" Url="html/875181623.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SatoshiValueJsonConverter.CanConvert method">
+    <HelpKINode Title="CanConvert Method " Url="html/724071717.htm" />
+    <HelpKINode Title="CanConvert Method " Url="html/683663261.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SatoshiValueJsonConverter.ReadJson method">
+    <HelpKINode Title="ReadJson Method " Url="html/283451409.htm" />
+    <HelpKINode Title="ReadJson Method " Url="html/1810346868.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SatoshiValueJsonConverter.WriteJson method">
+    <HelpKINode Title="WriteJson Method " Url="html/892227513.htm" />
+    <HelpKINode Title="WriteJson Method " Url="html/1772438816.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Script property">
+    <HelpKINode Title="Script Property " Url="html/1252846240.htm" />
+    <HelpKINode Title="Script Property " Url="html/137015526.htm" />
+    <HelpKINode Title="Script Property " Url="html/21903225.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Sent property">
+    <HelpKINode Title="Sent Property " Url="html/1790820094.htm" />
+    <HelpKINode Title="Sent Property " Url="html/1964155838.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Sequence property" Url="html/108516080.htm" />
+  <HelpKINode Title="Size property">
+    <HelpKINode Title="Size Property " Url="html/850467502.htm" />
+    <HelpKINode Title="Size Property " Url="html/420341588.htm" />
+    <HelpKINode Title="Size Property " Url="html/1595427214.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Time property">
+    <HelpKINode Title="Time Property " Url="html/3155716.htm" />
+    <HelpKINode Title="Time Property " Url="html/665493031.htm" />
+    <HelpKINode Title="Time Property " Url="html/1998711724.htm" />
+    <HelpKINode Title="Time Property " Url="html/71821140.htm" />
+    <HelpKINode Title="Time Property " Url="html/1352027476.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Transaction class">
+    <HelpKINode Title="Transaction Class" Url="html/347244361.htm" />
+    <HelpKINode Title="Transaction Members" Url="html/517022982.htm" />
+    <HelpKINode Title="about Transaction class" Url="html/347244361.htm" />
+    <HelpKINode Title="all members" Url="html/517022982.htm" />
+    <HelpKINode Title="methods" Url="html/1299654241.htm" />
+    <HelpKINode Title="properties" Url="html/1435845690.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Transaction.BlockHeight property" Url="html/10353410.htm" />
+  <HelpKINode Title="Transaction.Hash property" Url="html/869204290.htm" />
+  <HelpKINode Title="Transaction.Index property" Url="html/1874846942.htm" />
+  <HelpKINode Title="Transaction.Inputs property" Url="html/623640338.htm" />
+  <HelpKINode Title="Transaction.IsDoubleSpent property" Url="html/471243914.htm" />
+  <HelpKINode Title="Transaction.Outputs property" Url="html/1866827506.htm" />
+  <HelpKINode Title="Transaction.RelayedBy property" Url="html/2102977229.htm" />
+  <HelpKINode Title="Transaction.Size property" Url="html/850467502.htm" />
+  <HelpKINode Title="Transaction.Time property" Url="html/3155716.htm" />
+  <HelpKINode Title="Transaction.Version property" Url="html/598772810.htm" />
+  <HelpKINode Title="TransactionCount property">
+    <HelpKINode Title="TransactionCount Property " Url="html/1713093473.htm" />
+    <HelpKINode Title="TransactionCount Property " Url="html/460394509.htm" />
+    <HelpKINode Title="TransactionCount Property " Url="html/1078267244.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TransactionHash property" Url="html/2054995214.htm" />
+  <HelpKINode Title="TransactionIndex property">
+    <HelpKINode Title="TransactionIndex Property " Url="html/599188758.htm" />
+    <HelpKINode Title="TransactionIndex Property " Url="html/1992102735.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TransactionIndexes property" Url="html/992553200.htm" />
+  <HelpKINode Title="TransactionOutputIndex property" Url="html/557189943.htm" />
+  <HelpKINode Title="TransactionResource class">
+    <HelpKINode Title="TransactionResource Class" Url="html/1425843527.htm" />
+    <HelpKINode Title="TransactionResource Members" Url="html/1963190837.htm" />
+    <HelpKINode Title="about TransactionResource class" Url="html/1425843527.htm" />
+    <HelpKINode Title="all members" Url="html/1963190837.htm" />
+    <HelpKINode Title="methods" Url="html/935205243.htm" />
+    <HelpKINode Title="properties" Url="html/1870916500.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Transactions property">
+    <HelpKINode Title="Transactions Property " Url="html/1068680449.htm" />
+    <HelpKINode Title="Transactions Property " Url="html/59675854.htm" />
+    <HelpKINode Title="Transactions Property " Url="html/1516149376.htm" />
+    <HelpKINode Title="Transactions Property " Url="html/1473796418.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Type property" Url="html/1634813611.htm" />
+  <HelpKINode Title="UnixTimeMillisecondsJsonConverter class">
+    <HelpKINode Title="UnixTimeMillisecondsJsonConverter Class" Url="html/401476608.htm" />
+    <HelpKINode Title="UnixTimeMillisecondsJsonConverter Members" Url="html/2020745684.htm" />
+    <HelpKINode Title="about UnixTimeMillisecondsJsonConverter class" Url="html/401476608.htm" />
+    <HelpKINode Title="all members" Url="html/2020745684.htm" />
+    <HelpKINode Title="methods" Url="html/804384819.htm" />
+    <HelpKINode Title="properties" Url="html/2118002139.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UnixTimeMillisecondsJsonConverter.CanConvert method">
+    <HelpKINode Title="CanConvert Method " Url="html/2042206683.htm" />
+    <HelpKINode Title="CanConvert Method " Url="html/40592649.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UnixTimeMillisecondsJsonConverter.ReadJson method">
+    <HelpKINode Title="ReadJson Method " Url="html/14452287.htm" />
+    <HelpKINode Title="ReadJson Method " Url="html/1799117862.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UnixTimeMillisecondsJsonConverter.WriteJson method">
+    <HelpKINode Title="WriteJson Method " Url="html/710164603.htm" />
+    <HelpKINode Title="WriteJson Method " Url="html/2135899922.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UnixTimeSecondsJsonConverter class">
+    <HelpKINode Title="UnixTimeSecondsJsonConverter Class" Url="html/1182482908.htm" />
+    <HelpKINode Title="UnixTimeSecondsJsonConverter Members" Url="html/220147891.htm" />
+    <HelpKINode Title="about UnixTimeSecondsJsonConverter class" Url="html/1182482908.htm" />
+    <HelpKINode Title="all members" Url="html/220147891.htm" />
+    <HelpKINode Title="methods" Url="html/1105941580.htm" />
+    <HelpKINode Title="properties" Url="html/341778599.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UnixTimeSecondsJsonConverter.CanConvert method">
+    <HelpKINode Title="CanConvert Method " Url="html/1124509217.htm" />
+    <HelpKINode Title="CanConvert Method " Url="html/1183603796.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UnixTimeSecondsJsonConverter.ReadJson method">
+    <HelpKINode Title="ReadJson Method " Url="html/427901763.htm" />
+    <HelpKINode Title="ReadJson Method " Url="html/528389333.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UnixTimeSecondsJsonConverter.WriteJson method">
+    <HelpKINode Title="WriteJson Method " Url="html/976412956.htm" />
+    <HelpKINode Title="WriteJson Method " Url="html/144432147.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UnspentOutput class">
+    <HelpKINode Title="UnspentOutput Class" Url="html/477494912.htm" />
+    <HelpKINode Title="UnspentOutput Members" Url="html/1788241376.htm" />
+    <HelpKINode Title="about UnspentOutput class" Url="html/477494912.htm" />
+    <HelpKINode Title="all members" Url="html/1788241376.htm" />
+    <HelpKINode Title="methods" Url="html/446220867.htm" />
+    <HelpKINode Title="properties" Url="html/985437148.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UnspentOutput.Confirmations property" Url="html/2113816050.htm" />
+  <HelpKINode Title="UnspentOutput.Script property" Url="html/1252846240.htm" />
+  <HelpKINode Title="UnspentOutput.TransactionHash property" Url="html/2054995214.htm" />
+  <HelpKINode Title="UnspentOutput.TransactionIndex property" Url="html/599188758.htm" />
+  <HelpKINode Title="UnspentOutput.TransactionOutputIndex property" Url="html/557189943.htm" />
+  <HelpKINode Title="UnspentOutput.Value property" Url="html/1951393470.htm" />
+  <HelpKINode Title="UnspentOutputResource class">
+    <HelpKINode Title="UnspentOutputResource Class" Url="html/658712170.htm" />
+    <HelpKINode Title="UnspentOutputResource Members" Url="html/714123567.htm" />
+    <HelpKINode Title="about UnspentOutputResource class" Url="html/658712170.htm" />
+    <HelpKINode Title="all members" Url="html/714123567.htm" />
+    <HelpKINode Title="methods" Url="html/1937524169.htm" />
+    <HelpKINode Title="properties" Url="html/217737706.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UnspentOutputs property">
+    <HelpKINode Title="UnspentOutputs Property " Url="html/2069051286.htm" />
+    <HelpKINode Title="UnspentOutputs Property " Url="html/286362837.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Value property">
+    <HelpKINode Title="Value Property " Url="html/1951393470.htm" />
+    <HelpKINode Title="Value Property " Url="html/726508030.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Version property">
+    <HelpKINode Title="Version Property " Url="html/529705575.htm" />
+    <HelpKINode Title="Version Property " Url="html/267236748.htm" />
+    <HelpKINode Title="Version Property " Url="html/598772810.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WriteJson method">
+    <HelpKINode Title="WriteJson Method " Url="html/976412956.htm" />
+    <HelpKINode Title="WriteJson Method " Url="html/892227513.htm" />
+    <HelpKINode Title="WriteJson Method " Url="html/1603581563.htm" />
+    <HelpKINode Title="WriteJson Method " Url="html/1529791099.htm" />
+    <HelpKINode Title="WriteJson Method " Url="html/144432147.htm" />
+    <HelpKINode Title="WriteJson Method " Url="html/1099826347.htm" />
+    <HelpKINode Title="WriteJson Method " Url="html/1443761150.htm" />
+    <HelpKINode Title="WriteJson Method " Url="html/710164603.htm" />
+    <HelpKINode Title="WriteJson Method " Url="html/1772438816.htm" />
+    <HelpKINode Title="WriteJson Method " Url="html/2135899922.htm" />
+  </HelpKINode>
+</HelpKI>
