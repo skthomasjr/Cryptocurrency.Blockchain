@@ -9,8 +9,6 @@
 
 Cryptocurrency.Blockchain is a library for interacting with the Blockchain Data API provided by Blockchain. The [Blockchain Data API documentation](https://blockchain.info/api/blockchain_api) is provided by [Blockchain](https://blockchain.info).
 
-See the [assembly help documentation](http://skthomasjr.github.io/Cryptocurrency.Blockchain/Site/Help/Index.html) for help on usage and code samples.
-
 The API library is implemented using [NetClient.Rest](https://github.com/skthomasjr/NetClient.Rest) - an asynchronous REST API client that allows you to make API calls using LINQ syntax. Current API calls supported:
 
 API Call | Supported
@@ -26,22 +24,4 @@ Single Transaction | ✔
 Unconfirmed Transactions | ✔
 Unspent Outputs | ✔
 
-This API library allows interacting with the API service using LINQ query syntax or LINQ method syntax. Example of making an API call using LINQ query syntax:
-```c#
-var client = new BlockchainDataClient { OnError = ex => Console.WriteLine(ex.Message) };
-
-var addresses = from a in client.Addresses where a.Base58 == "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa" select a;
-var address = addresses.ToArray().SingleOrDefault();  // Actual HTTP call not made until we enumerate here.
-
-Console.WriteLine(address?.Base58);
-```
-The came call using LINQ method syntax:
-```c#
-var client = new BlockchainDataClient { OnError = ex => Console.WriteLine(ex.Message) };
-
-var address = client.Addresses
-  .Where(a => a.Base58 == "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa")
-  .ToArray().SingleOrDefault();
-
-Console.WriteLine(address?.Base58);
-```
+See the [assembly help documentation](http://skthomasjr.github.io/Cryptocurrency.Blockchain/Site/Help/Index.html) for help on usage and code samples.
