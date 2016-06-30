@@ -11,7 +11,7 @@ namespace Cryptocurrency.Blockchain.SampleConsole
         {
             var client = new BlockchainDataClient { OnError = ex => Console.WriteLine(ex.Message) };
 
-            var address = client.Addresses
+            var address = new AddressResource()
                 .Where(a => Configuration.Criteria == new { Limit = 10, Offset = 0 } && a.Base58 == "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa")
                 .ToArray()
                 .SingleOrDefault();
