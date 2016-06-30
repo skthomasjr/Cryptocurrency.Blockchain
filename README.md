@@ -7,7 +7,7 @@
 [![Author](https://img.shields.io/badge/author-Scott%20K.%20Thomas%2C%20Jr.-blue.svg?maxAge=2592000)](https://www.linkedin.com/in/skthomasjr)
 [![Join the chat at https://gitter.im/skthomasjr/Cryptocurrency.Blockchain](https://badges.gitter.im/skthomasjr/Cryptocurrency.Blockchain.svg)](https://gitter.im/skthomasjr/Cryptocurrency.Blockchain?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Cryptocurrency.Blockchain is a library for interacting with the Blockchain Data API provided by Blockchain.info. The [Blockchain Data API documentation](https://blockchain.info/api/blockchain_api) is provided by [Blockchain.info](https://blockchain.info).
+Cryptocurrency.Blockchain is a library for interacting with the Blockchain Data API provided by Blockchain. The [Blockchain Data API documentation](https://blockchain.info/api/blockchain_api) is provided by [Blockchain.info](https://blockchain.info).
 
 The API library is implemented using [NetClient.Rest](https://github.com/skthomasjr/NetClient.Rest) - an asynchronous REST API client that allows you to make API calls using LINQ syntax. Current API calls supported:
 
