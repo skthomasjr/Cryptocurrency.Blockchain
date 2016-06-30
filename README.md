@@ -9,4 +9,4 @@
 
 Cryptocurrency.Blockchain is a library for interacting with the [Blockchain Data API](https://blockchain.info/api/blockchain_api) provided by [Blockchain](https://blockchain.info).
 
-The API library is implemented using [NetClient.Rest](https://github.com/skthomasjr/NetClient.Rest) - an asynchronous REST API client that allows you to make API calls using LINQ syntax. See the [assembly help documentation](http://skthomasjr.github.io/Cryptocurrency.Blockchain/Site/Help/Index.html) for help on usage and code samples.
+See the [assembly help documentation](http://skthomasjr.github.io/Cryptocurrency.Blockchain/Site/Help/Index.html) for help on usage and code samples.
