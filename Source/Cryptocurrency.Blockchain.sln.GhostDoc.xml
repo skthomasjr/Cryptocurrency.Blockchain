@@ -26,8 +26,8 @@
     </HtmlFormats>
     <IncludeScopes>
       <Public>true</Public>
-      <Internal>true</Internal>
-      <Protected>false</Protected>
+      <Internal>false</Internal>
+      <Protected>true</Protected>
       <Private>false</Private>
       <Inherited>true</Inherited>
       <InheritedFromReferences>true</InheritedFromReferences>

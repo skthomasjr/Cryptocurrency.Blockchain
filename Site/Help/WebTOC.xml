@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="c53ce774-8f13-4fa8-9ef3-a87e60be617f" Title="Cryptocurrency.Blockchain Namespace" Url="html/214259925.htm">
-    <HelpTOCNode Id="c9b362f5-cbb2-4963-8416-0c09af6ef2bb" Title="Address Class" Url="html/1118029632.htm">
+  <HelpTOCNode Id="3c5bb005-9938-4e06-9d2a-62d60afdcbc1" Title="Cryptocurrency.Blockchain Namespace" Url="html/214259925.htm">
+    <HelpTOCNode Id="7caf7006-97a8-48ad-9598-1ec93bf55ad2" Title="Address Class" Url="html/1118029632.htm">
       <HelpTOCNode Title="Address Members" Url="html/20091409.htm" />
       <HelpTOCNode Title="Address Methods" Url="html/1998041453.htm" />
-      <HelpTOCNode Id="7099def6-ee0f-457b-b065-82739431f121" Title="Address Properties" Url="html/1955215047.htm">
+      <HelpTOCNode Id="5568c7c6-6b83-4329-9add-072e724524ec" Title="Address Properties" Url="html/1955215047.htm">
         <HelpTOCNode Title="Balance Property " Url="html/1850094700.htm" />
         <HelpTOCNode Title="Base58 Property " Url="html/1854089896.htm" />
         <HelpTOCNode Title="Hash160 Property " Url="html/1713944983.htm" />
@@ -15,14 +15,14 @@
         <HelpTOCNode Title="Transactions Property " Url="html/59675854.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="78f6ad8c-f0c4-42a0-84ef-5ea89813f007" Title="AddressResource Class" Url="html/287043899.htm">
+    <HelpTOCNode Id="7a4cc23f-0f0d-487c-9c6f-74d818b797b1" Title="AddressResource Class" Url="html/287043899.htm">
       <HelpTOCNode Title="AddressResource Methods" Url="html/1052587990.htm" />
       <HelpTOCNode Title="AddressResource Properties" Url="html/1281109885.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="1dce5008-bbf6-4526-9983-7617ea10495a" Title="AddressSummary Class" Url="html/1569538282.htm">
+    <HelpTOCNode Id="7e2190e5-1095-4a42-8fa7-7df7d557dd55" Title="AddressSummary Class" Url="html/1569538282.htm">
       <HelpTOCNode Title="AddressSummary Members" Url="html/51920779.htm" />
       <HelpTOCNode Title="AddressSummary Methods" Url="html/1179046166.htm" />
-      <HelpTOCNode Id="f09487c0-bab2-44e7-961b-19b644989b8e" Title="AddressSummary Properties" Url="html/1576620788.htm">
+      <HelpTOCNode Id="6b93e5a9-dfe3-4a86-a2c3-c3962dd27530" Title="AddressSummary Properties" Url="html/1576620788.htm">
         <HelpTOCNode Title="Balance Property " Url="html/21130386.htm" />
         <HelpTOCNode Title="Base58 Property " Url="html/883736779.htm" />
         <HelpTOCNode Title="Received Property " Url="html/247792370.htm" />
@@ -30,14 +30,14 @@
         <HelpTOCNode Title="TransactionCount Property " Url="html/460394509.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="db0fe1aa-4d8e-4c78-aae5-190b911e1b66" Title="AddressSummaryResource Class" Url="html/1258137519.htm">
+    <HelpTOCNode Id="54396cc2-d932-4a78-8e2a-1d659c5cb352" Title="AddressSummaryResource Class" Url="html/1258137519.htm">
       <HelpTOCNode Title="AddressSummaryResource Methods" Url="html/1790476566.htm" />
       <HelpTOCNode Title="AddressSummaryResource Properties" Url="html/1904719071.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="39bce779-b543-49dc-a78a-f6311d08219c" Title="Block Class" Url="html/2034944723.htm">
+    <HelpTOCNode Id="9b95d5fd-4291-4f4a-af5c-a552db749a54" Title="Block Class" Url="html/2034944723.htm">
       <HelpTOCNode Title="Block Members" Url="html/191095044.htm" />
       <HelpTOCNode Title="Block Methods" Url="html/439292614.htm" />
-      <HelpTOCNode Id="1b9b7494-f230-4da3-a29f-5b9f34a0af09" Title="Block Properties" Url="html/371262430.htm">
+      <HelpTOCNode Id="6f8aedc8-73b4-4125-b285-5a2d5a49254c" Title="Block Properties" Url="html/371262430.htm">
         <HelpTOCNode Title="Bits Property " Url="html/422437207.htm" />
         <HelpTOCNode Title="Fee Property " Url="html/454865874.htm" />
         <HelpTOCNode Title="Hash Property " Url="html/1914200842.htm" />
@@ -55,10 +55,10 @@
         <HelpTOCNode Title="Version Property " Url="html/529705575.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="934b0c65-b354-4696-b9da-3c344987538c" Title="BlockchainDataClient Class" Url="html/650844270.htm">
+    <HelpTOCNode Id="cf645494-964c-431b-9ae0-e2623620d402" Title="BlockchainDataClient Class" Url="html/650844270.htm">
       <HelpTOCNode Title="BlockchainDataClient Members" Url="html/1364105316.htm" />
       <HelpTOCNode Title="BlockchainDataClient Methods" Url="html/494325163.htm" />
-      <HelpTOCNode Id="0c07d132-a506-4879-9ff4-b8782128a753" Title="BlockchainDataClient Properties" Url="html/1811563568.htm">
+      <HelpTOCNode Id="c921cf78-c0d9-42e1-816c-c7591b94f463" Title="BlockchainDataClient Properties" Url="html/1811563568.htm">
         <HelpTOCNode Title="Addresses Property " Url="html/545821540.htm" />
         <HelpTOCNode Title="Blocks Property " Url="html/1536316927.htm" />
         <HelpTOCNode Title="InventoryData Property " Url="html/1927637516.htm" />
@@ -69,14 +69,14 @@
         <HelpTOCNode Title="UnspentOutputs Property " Url="html/286362837.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="a3b9e199-f87c-485a-9102-03ee0439acce" Title="BlockResource Class" Url="html/1919384163.htm">
+    <HelpTOCNode Id="dded38c9-1900-4827-96bd-99a0ded19b48" Title="BlockResource Class" Url="html/1919384163.htm">
       <HelpTOCNode Title="BlockResource Methods" Url="html/953322953.htm" />
       <HelpTOCNode Title="BlockResource Properties" Url="html/1833545800.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="c4d1f335-91f7-4e81-8c25-dcdb7766c8d6" Title="BlockTransaction Class" Url="html/633697327.htm">
+    <HelpTOCNode Id="3055269a-5c75-4ab5-bda1-ced5a3049ffd" Title="BlockTransaction Class" Url="html/633697327.htm">
       <HelpTOCNode Title="BlockTransaction Members" Url="html/2100728884.htm" />
       <HelpTOCNode Title="BlockTransaction Methods" Url="html/360682748.htm" />
-      <HelpTOCNode Id="2ca15f04-c80f-4aa9-83da-8f1708f4bf6d" Title="BlockTransaction Properties" Url="html/1779355519.htm">
+      <HelpTOCNode Id="f34fdab9-cd01-4c20-9cdd-88f9c09d8a28" Title="BlockTransaction Properties" Url="html/1779355519.htm">
         <HelpTOCNode Title="BlockHeight Property " Url="html/570148679.htm" />
         <HelpTOCNode Title="Hash Property " Url="html/399346719.htm" />
         <HelpTOCNode Title="Index Property " Url="html/1086044891.htm" />
@@ -89,10 +89,10 @@
         <HelpTOCNode Title="Version Property " Url="html/267236748.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="1cf798a6-5f97-42fc-bba1-e69829850424" Title="IBlockchainDataClient Interface" Url="html/2102701081.htm">
+    <HelpTOCNode Id="a06ed476-780e-466f-9b07-913d0c09113e" Title="IBlockchainDataClient Interface" Url="html/2102701081.htm">
       <HelpTOCNode Title="IBlockchainDataClient Members" Url="html/716853746.htm" />
       <HelpTOCNode Title="IBlockchainDataClient Methods" Url="html/1660098792.htm" />
-      <HelpTOCNode Id="518983b2-1015-4a4c-8a67-928548c4bb0c" Title="IBlockchainDataClient Properties" Url="html/335088087.htm">
+      <HelpTOCNode Id="bb5152a4-a24a-4122-b801-9d123e6d7f13" Title="IBlockchainDataClient Properties" Url="html/335088087.htm">
         <HelpTOCNode Title="Addresses Property " Url="html/622283370.htm" />
         <HelpTOCNode Title="Blocks Property " Url="html/940986912.htm" />
         <HelpTOCNode Title="InventoryData Property " Url="html/176868677.htm" />
@@ -103,19 +103,19 @@
         <HelpTOCNode Title="UnspentOutputs Property " Url="html/2069051286.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="6bd89fa1-415b-4102-95a9-5a3d7bd6ee93" Title="InputTransaction Class" Url="html/822364925.htm">
+    <HelpTOCNode Id="b762be23-8e18-4866-a51e-960191132a8f" Title="InputTransaction Class" Url="html/822364925.htm">
       <HelpTOCNode Title="InputTransaction Members" Url="html/1116792950.htm" />
       <HelpTOCNode Title="InputTransaction Methods" Url="html/696156486.htm" />
-      <HelpTOCNode Id="533406eb-fbb9-4ffd-a297-a4432ab61b61" Title="InputTransaction Properties" Url="html/734262705.htm">
+      <HelpTOCNode Id="72b53256-5002-4e85-98cf-c288062963c6" Title="InputTransaction Properties" Url="html/734262705.htm">
         <HelpTOCNode Title="PreviousOutput Property " Url="html/790092147.htm" />
         <HelpTOCNode Title="Script Property " Url="html/21903225.htm" />
         <HelpTOCNode Title="Sequence Property " Url="html/108516080.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="3acd2658-8245-4ce5-babe-ab8d6a6ddc01" Title="InventoryData Class" Url="html/772870589.htm">
+    <HelpTOCNode Id="f76f907a-be3d-417f-9213-2fd84c6aa455" Title="InventoryData Class" Url="html/772870589.htm">
       <HelpTOCNode Title="InventoryData Members" Url="html/1530564768.htm" />
       <HelpTOCNode Title="InventoryData Methods" Url="html/885571731.htm" />
-      <HelpTOCNode Id="fd8e8488-147c-46e6-9155-5d0998d0cd8d" Title="InventoryData Properties" Url="html/1083004070.htm">
+      <HelpTOCNode Id="533c4253-a1a7-4235-a57f-d7c5a0cf5aa0" Title="InventoryData Properties" Url="html/1083004070.htm">
         <HelpTOCNode Title="ConnectedNodeCount Property " Url="html/1597159663.htm" />
         <HelpTOCNode Title="Hash Property " Url="html/1151638838.htm" />
         <HelpTOCNode Title="InitialIp Property " Url="html/105446057.htm" />
@@ -126,14 +126,14 @@
         <HelpTOCNode Title="Type Property " Url="html/1634813611.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="d9f67533-696d-4bd9-8656-dc4181388ca7" Title="InventoryDataResource Class" Url="html/40558326.htm">
+    <HelpTOCNode Id="3ff79578-5a65-45f9-b28a-c824f9d34fdb" Title="InventoryDataResource Class" Url="html/40558326.htm">
       <HelpTOCNode Title="InventoryDataResource Methods" Url="html/1705334479.htm" />
       <HelpTOCNode Title="InventoryDataResource Properties" Url="html/523474268.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="178e2bc8-6187-47e2-8ec9-2ce9fa03934e" Title="LatestBlock Class" Url="html/80318801.htm">
+    <HelpTOCNode Id="4ded1bb5-324e-4e66-a81b-dd299ed1dbd9" Title="LatestBlock Class" Url="html/80318801.htm">
       <HelpTOCNode Title="LatestBlock Members" Url="html/1708710727.htm" />
       <HelpTOCNode Title="LatestBlock Methods" Url="html/2050221685.htm" />
-      <HelpTOCNode Id="6ae1913a-59f4-4050-b3c5-ec46f43d3281" Title="LatestBlock Properties" Url="html/2060584478.htm">
+      <HelpTOCNode Id="94065270-2ebe-4818-ab74-4744b920d5ac" Title="LatestBlock Properties" Url="html/2060584478.htm">
         <HelpTOCNode Title="Hash Property " Url="html/977011043.htm" />
         <HelpTOCNode Title="Height Property " Url="html/334080638.htm" />
         <HelpTOCNode Title="Index Property " Url="html/1151877458.htm" />
@@ -142,28 +142,28 @@
         <HelpTOCNode Title="TransactionIndexes Property " Url="html/992553200.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="29e7ab06-f784-4582-bb61-667061046d8a" Title="LatestBlockResource Class" Url="html/973869423.htm">
+    <HelpTOCNode Id="dffd4395-60ea-4d3c-abab-d1d5b906fbd5" Title="LatestBlockResource Class" Url="html/973869423.htm">
       <HelpTOCNode Title="LatestBlockResource Methods" Url="html/1157825988.htm" />
       <HelpTOCNode Title="LatestBlockResource Properties" Url="html/1309519023.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="06bf4af1-cb55-487f-87fa-f31c59e7e037" Title="MinedBlock Class" Url="html/702679239.htm">
+    <HelpTOCNode Id="2d0dbf05-2814-4e9b-984c-e6897416e653" Title="MinedBlock Class" Url="html/702679239.htm">
       <HelpTOCNode Title="MinedBlock Members" Url="html/406986042.htm" />
       <HelpTOCNode Title="MinedBlock Methods" Url="html/2125933929.htm" />
-      <HelpTOCNode Id="35d81a62-5323-4219-acd6-e3e87fdd2dcd" Title="MinedBlock Properties" Url="html/1411827863.htm">
+      <HelpTOCNode Id="39396f8f-2522-4aaf-8db8-aa93239239eb" Title="MinedBlock Properties" Url="html/1411827863.htm">
         <HelpTOCNode Title="Hash Property " Url="html/2096691627.htm" />
         <HelpTOCNode Title="Height Property " Url="html/26019807.htm" />
         <HelpTOCNode Title="IsMainChain Property " Url="html/736121898.htm" />
         <HelpTOCNode Title="Time Property " Url="html/1352027476.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="9cda078f-08c2-40c8-a943-e3ce5c751793" Title="MinedBlockResource Class" Url="html/149408660.htm">
+    <HelpTOCNode Id="b6757ff7-46c3-4521-b628-f89efb7f98c7" Title="MinedBlockResource Class" Url="html/149408660.htm">
       <HelpTOCNode Title="MinedBlockResource Methods" Url="html/1307877411.htm" />
       <HelpTOCNode Title="MinedBlockResource Properties" Url="html/1372431993.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="e18a1bd9-5c64-42a9-bad9-40b748d66263" Title="OutputTransaction Class" Url="html/681917104.htm">
+    <HelpTOCNode Id="379f9eee-2ce5-4da6-8f51-725a9bedc4b9" Title="OutputTransaction Class" Url="html/681917104.htm">
       <HelpTOCNode Title="OutputTransaction Members" Url="html/2068538800.htm" />
       <HelpTOCNode Title="OutputTransaction Methods" Url="html/1981709367.htm" />
-      <HelpTOCNode Id="e86c2ca6-e48d-4a62-b197-9ef7aaf3ac94" Title="OutputTransaction Properties" Url="html/1402694545.htm">
+      <HelpTOCNode Id="cb99db14-ec34-4562-ae87-d912c3983ec9" Title="OutputTransaction Properties" Url="html/1402694545.htm">
         <HelpTOCNode Title="Address Property " Url="html/1665634113.htm" />
         <HelpTOCNode Title="Index Property " Url="html/1181095366.htm" />
         <HelpTOCNode Title="IsSpent Property " Url="html/1160783885.htm" />
@@ -172,10 +172,10 @@
         <HelpTOCNode Title="Value Property " Url="html/726508030.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="09c90287-46a4-487f-8507-8b21831e3683" Title="Transaction Class" Url="html/347244361.htm">
+    <HelpTOCNode Id="1ba116bc-2b4b-4eab-8ab6-4c1f25731d67" Title="Transaction Class" Url="html/347244361.htm">
       <HelpTOCNode Title="Transaction Members" Url="html/517022982.htm" />
       <HelpTOCNode Title="Transaction Methods" Url="html/1299654241.htm" />
-      <HelpTOCNode Id="1f13c619-64fc-48be-9147-715186bb04c4" Title="Transaction Properties" Url="html/1435845690.htm">
+      <HelpTOCNode Id="e922c664-3ca8-46ec-ae7d-95b6baa10e50" Title="Transaction Properties" Url="html/1435845690.htm">
         <HelpTOCNode Title="BlockHeight Property " Url="html/10353410.htm" />
         <HelpTOCNode Title="Hash Property " Url="html/869204290.htm" />
         <HelpTOCNode Title="Index Property " Url="html/1874846942.htm" />
@@ -188,14 +188,14 @@
         <HelpTOCNode Title="Version Property " Url="html/598772810.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="28dd49ca-2683-443b-b574-27920c8ee1a2" Title="TransactionResource Class" Url="html/1425843527.htm">
+    <HelpTOCNode Id="5f45a76b-74b2-4fa2-9189-562c5a861ae2" Title="TransactionResource Class" Url="html/1425843527.htm">
       <HelpTOCNode Title="TransactionResource Methods" Url="html/935205243.htm" />
       <HelpTOCNode Title="TransactionResource Properties" Url="html/1870916500.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="73b6f976-a54f-4506-b416-b57126bcf6e8" Title="UnspentOutput Class" Url="html/477494912.htm">
+    <HelpTOCNode Id="d7189844-8c87-4a77-8d09-4311ae424878" Title="UnspentOutput Class" Url="html/477494912.htm">
       <HelpTOCNode Title="UnspentOutput Members" Url="html/1788241376.htm" />
       <HelpTOCNode Title="UnspentOutput Methods" Url="html/446220867.htm" />
-      <HelpTOCNode Id="4a9baf3b-b4dd-4eaa-9167-9667a9069dd6" Title="UnspentOutput Properties" Url="html/985437148.htm">
+      <HelpTOCNode Id="eca1ce22-4fc5-428f-ba6c-e8a9bc1efd1f" Title="UnspentOutput Properties" Url="html/985437148.htm">
         <HelpTOCNode Title="Confirmations Property " Url="html/2113816050.htm" />
         <HelpTOCNode Title="Script Property " Url="html/1252846240.htm" />
         <HelpTOCNode Title="TransactionHash Property " Url="html/2054995214.htm" />
@@ -204,86 +204,9 @@
         <HelpTOCNode Title="Value Property " Url="html/1951393470.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="c799ee9a-caeb-438f-851c-a47cf7c341ab" Title="UnspentOutputResource Class" Url="html/658712170.htm">
+    <HelpTOCNode Id="02293725-ac71-4abd-a7bd-181cd5901e9b" Title="UnspentOutputResource Class" Url="html/658712170.htm">
       <HelpTOCNode Title="UnspentOutputResource Methods" Url="html/1937524169.htm" />
       <HelpTOCNode Title="UnspentOutputResource Properties" Url="html/217737706.htm" />
-    </HelpTOCNode>
-  </HelpTOCNode>
-  <HelpTOCNode Id="9e824eb0-5e7a-472f-89cd-c0bd68f146b6" Title="Cryptocurrency.Blockchain.Serialization.Converters Namespace" Url="html/1185030845.htm">
-    <HelpTOCNode Id="9fb044db-3321-4fee-bd10-c9c6808963ed" Title="HexJsonConverter Class" Url="html/481203847.htm">
-      <HelpTOCNode Title="HexJsonConverter Members" Url="html/1819014340.htm" />
-      <HelpTOCNode Id="22092cdc-aac3-40c2-927e-410581a25c26" Title="HexJsonConverter Methods" Url="html/534708765.htm">
-        <HelpTOCNode Id="51af98e5-ee07-4a8b-8590-a1f7b52d0a84" Title="CanConvert Method " Url="html/986190217.htm">
-          <HelpTOCNode Title="CanConvert Method " Url="html/383476608.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="dabd2b82-e572-4f8d-8ba0-dffd95461b04" Title="ReadJson Method " Url="html/1758342664.htm">
-          <HelpTOCNode Title="ReadJson Method " Url="html/1669542139.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="ad86c2cc-fefc-4ff7-af2e-0e83bd334705" Title="WriteJson Method " Url="html/1099826347.htm">
-          <HelpTOCNode Title="WriteJson Method " Url="html/1529791099.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Title="HexJsonConverter Properties" Url="html/1677676786.htm" />
-    </HelpTOCNode>
-    <HelpTOCNode Id="a73d0318-024e-43b7-940f-1bb1f6f387e7" Title="IpAddressConverter Class" Url="html/555737281.htm">
-      <HelpTOCNode Title="IpAddressConverter Members" Url="html/1710017624.htm" />
-      <HelpTOCNode Id="19022ab2-7693-4b5e-8d2e-da7bef46b986" Title="IpAddressConverter Methods" Url="html/241189112.htm">
-        <HelpTOCNode Id="9b314541-e947-49f1-88ea-e21967f2fb00" Title="CanConvert Method " Url="html/1550326437.htm">
-          <HelpTOCNode Title="CanConvert Method " Url="html/1000302535.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="2302d40a-d1e4-4ee5-8bca-36e4c447f6c4" Title="ReadJson Method " Url="html/915925918.htm">
-          <HelpTOCNode Title="ReadJson Method " Url="html/1238948744.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="ef225ac5-eded-4042-b358-d37b2de9f231" Title="WriteJson Method " Url="html/1603581563.htm">
-          <HelpTOCNode Title="WriteJson Method " Url="html/1443761150.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Title="IpAddressConverter Properties" Url="html/1393543.htm" />
-    </HelpTOCNode>
-    <HelpTOCNode Id="f4ea6a1d-44ef-4b8c-98c7-d22928d0ef1e" Title="SatoshiValueJsonConverter Class" Url="html/1105773411.htm">
-      <HelpTOCNode Title="SatoshiValueJsonConverter Members" Url="html/1225682343.htm" />
-      <HelpTOCNode Id="91bf8426-4977-4bc5-a4e2-4c2ba61e84bf" Title="SatoshiValueJsonConverter Methods" Url="html/1307678660.htm">
-        <HelpTOCNode Id="109f668d-09a3-4874-853b-1530497da52c" Title="CanConvert Method " Url="html/724071717.htm">
-          <HelpTOCNode Title="CanConvert Method " Url="html/683663261.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="c6e3144d-4200-4dd2-8716-c8739ec194c9" Title="ReadJson Method " Url="html/283451409.htm">
-          <HelpTOCNode Title="ReadJson Method " Url="html/1810346868.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="e99a14f1-2ffe-44ca-a78b-3c4be6800e57" Title="WriteJson Method " Url="html/892227513.htm">
-          <HelpTOCNode Title="WriteJson Method " Url="html/1772438816.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Title="SatoshiValueJsonConverter Properties" Url="html/875181623.htm" />
-    </HelpTOCNode>
-    <HelpTOCNode Id="9085083f-eaf8-4557-a3c0-2b01deb3b53b" Title="UnixTimeMillisecondsJsonConverter Class" Url="html/401476608.htm">
-      <HelpTOCNode Title="UnixTimeMillisecondsJsonConverter Members" Url="html/2020745684.htm" />
-      <HelpTOCNode Id="20036d77-1a2c-4982-b8d3-6d0489ddc8c0" Title="UnixTimeMillisecondsJsonConverter Methods" Url="html/804384819.htm">
-        <HelpTOCNode Id="8680e9f5-0adc-4a89-a1fe-2489e3483a00" Title="CanConvert Method " Url="html/2042206683.htm">
-          <HelpTOCNode Title="CanConvert Method " Url="html/40592649.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="262ac086-97dd-41a0-ba6a-cf607f9b74f9" Title="ReadJson Method " Url="html/14452287.htm">
-          <HelpTOCNode Title="ReadJson Method " Url="html/1799117862.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="a6c9b4bf-4f32-49af-9dc1-b44db16ea257" Title="WriteJson Method " Url="html/710164603.htm">
-          <HelpTOCNode Title="WriteJson Method " Url="html/2135899922.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Title="UnixTimeMillisecondsJsonConverter Properties" Url="html/2118002139.htm" />
-    </HelpTOCNode>
-    <HelpTOCNode Id="70f52361-3cab-4d94-b269-61a6fd7e0616" Title="UnixTimeSecondsJsonConverter Class" Url="html/1182482908.htm">
-      <HelpTOCNode Title="UnixTimeSecondsJsonConverter Members" Url="html/220147891.htm" />
-      <HelpTOCNode Id="e968eb23-a521-4e01-a2da-224e5252a4d5" Title="UnixTimeSecondsJsonConverter Methods" Url="html/1105941580.htm">
-        <HelpTOCNode Id="086d9063-2269-49f0-8f27-d204fa9c6939" Title="CanConvert Method " Url="html/1183603796.htm">
-          <HelpTOCNode Title="CanConvert Method " Url="html/1124509217.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="e4a0891b-c0d2-47fa-bda0-59c13c2ee810" Title="ReadJson Method " Url="html/528389333.htm">
-          <HelpTOCNode Title="ReadJson Method " Url="html/427901763.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="e215a4ce-004a-42b8-a221-ae2990aa3eee" Title="WriteJson Method " Url="html/976412956.htm">
-          <HelpTOCNode Title="WriteJson Method " Url="html/144432147.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Title="UnixTimeSecondsJsonConverter Properties" Url="html/341778599.htm" />
     </HelpTOCNode>
   </HelpTOCNode>
 </HelpTOC>
